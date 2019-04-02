@@ -1,0 +1,46 @@
+{
+  "instruction": {
+    "syntax" : ["\"do\" action domain"],
+    "return" : ["integer","string","array"]
+  },
+  "action" : {
+    "syntax" : ["@"],
+    "return" : ["string"]
+  },
+  "domain" : {
+    "syntax" : [
+      "\"between\" \"(\" columns \")\"",
+      "\"on\" column "
+    ],
+    "return" : ["integer","string","array"]
+  },
+  "columns" : {
+    "syntax" : [
+      "column \",\" column",
+      "column \",\" column \",\" column",
+      "column \",\" column \",\" column \",\" column"
+    ],
+    "return" : ["matrix"]
+  },
+  "column" : {
+    "syntax" : [
+      "table_column",
+      "call",
+      "constant",
+      "\"(\" instruction \")\" "
+    ],
+    "return" : ["array","const"]
+  },
+  "table_column" : {
+    "syntax" : [ "@\".\"@"],
+    "return" : ["string"]
+  },
+  "constant" : {
+    "syntax" : ["@"],
+    "return" : ["string","int"]
+  },
+  "call" : {
+    "syntax" : ["@\"(\" @ \",\" @ \")\""],
+    "return" : ["array"]
+  }
+}

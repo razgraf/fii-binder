@@ -1,0 +1,92 @@
+.gradient {
+  background: #fc6621;
+  background: linear-gradient(5deg, #fc6621 30%, #f9ab23);
+  background: -webkit-linear-gradient(5deg, #fc6621 30%, #f9ab23);
+  background: -moz-linear-gradient(5deg, #fc6621 30%, #f9ab23);
+  background: -o-linear-gradient(5deg, #fc6621 30%, #f9ab23); }
+
+.gradient25 {
+  background: #fc6621;
+  background: linear-gradient(25deg, #fc6621, #f9ab23);
+  background: -webkit-linear-gradient(25deg, #fc6621, #f9ab23);
+  background: -moz-linear-gradient(25deg, #fc6621, #f9ab23);
+  background: -o-linear-gradient(25deg, #fc6621, #f9ab23); }
+
+.gradientPurple {
+  background: #7F00FF;
+  background: linear-gradient(-25deg, #7F00FF, #E100FF);
+  background: -webkit-linear-gradient(-25deg, #7F00FF, #E100FF);
+  background: -moz-linear-gradient(-25deg, #7F00FF, #E100FF);
+  background: -o-linear-gradient(-25deg, #7F00FF, #E100FF); }
+
+.gradientOtherOrange {
+  background: #f9d423;
+  background: linear-gradient(25deg, #f9d423, #ff4e50);
+  background: -webkit-linear-gradient(25deg, #f9d423, #ff4e50);
+  background: -moz-linear-gradient(25deg, #f9d423, #ff4e50);
+  background: -o-linear-gradient(25deg, #f9d423, #ff4e50); }
+
+.gradientBlue {
+  background: #04befe;
+  background: linear-gradient(15deg, #4481eb, #04befe);
+  background: -webkit-linear-gradient(15deg, #4481eb, #04befe);
+  background: -moz-linear-gradient(15deg, #4481eb, #04befe);
+  background: -o-linear-gradient(15deg, #4481eb, #04befe); }
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.transition01 {
+  transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s; }
+
+.transition02 {
+  transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s; }
+
+.transition03 {
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s; }
+
+.transition05 {
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s; }
+
+.disableClick {
+  filter: grayscale(50%);
+  opacity: 0.5;
+  pointer-events: none; }
+
+section {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto; }
+
+#body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+  max-width: 100%; }
+
+main {
+  padding-top: 85px; }
+
+* {
+  font-family: "Open Sans", "Open Sans", sans-serif; }
+
+/*# sourceMappingURL=config.css.map */

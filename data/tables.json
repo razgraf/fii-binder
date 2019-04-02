@@ -1,0 +1,127 @@
+[
+  {
+    "ID" : 1,
+    "name" : "common",
+    "columns" : [
+      {
+        "name" : "ID",
+        "type" : "integer"
+      },
+      {
+        "name" : "name",
+        "type" : "string"
+      },
+      {
+        "name" : "frequency",
+        "type" : "integer",
+        "info" : "The service needs to be activated once every *frequency* months."
+      },
+      {
+        "name" : "price",
+        "type" : "integer",
+        "info" : "Price in USD."
+      }
+
+    ],
+    "data" :
+    [
+      {
+        "ID" : 1,
+        "name" : "Apple dev. account",
+        "frequency" : 12,
+        "price" : 100
+      },
+      {
+        "ID" : 2,
+        "name" : "Android dev. account",
+        "frequency" : 9999999,
+        "price" : 25
+      },
+      {
+        "ID" : 3,
+        "name" : "Shared Hosting",
+        "frequency" : 1,
+        "price" : 25
+      }
+    ]
+  },
+  {
+    "ID" : 2,
+    "name" : "support",
+    "columns" : [
+      {
+        "name" : "ID",
+        "type" : "integer"
+      },
+      {
+        "name" : "name",
+        "type" : "string"
+      },
+      {
+        "name" : "frequency",
+        "type" : "integer",
+        "info" : "The service needs to be activated once every *frequency* months."
+      },
+      {
+        "name" : "price",
+        "type" : "integer",
+        "info" : "Price in USD."
+      }
+
+    ],
+    "data" :
+    [
+      {
+        "ID" : 1,
+        "name" : "Maintenance",
+        "frequency" : 1,
+        "price" : 300
+      },
+      {
+        "ID" : 2,
+        "name" : "Feature Ideation",
+        "frequency" : 1,
+        "price" : 500
+      }
+    ]
+  },
+  {
+    "ID" : 3,
+    "name" : "features",
+    "columns" : [
+      {
+        "name" : "ID",
+        "type" : "integer"
+      },
+      {
+        "name" : "name",
+        "type" : "string"
+      },
+      {
+        "name" : "price",
+        "type" : "integer",
+        "info" : "Currency in USD."
+      }
+
+    ],
+    "data" :
+    [
+      {
+        "ID" : 1,
+        "name" : "Web Design",
+        "price" : 3000
+      },
+      {
+        "ID" : 2,
+        "name" : "Web Development",
+        "price" : 4000
+      },
+      {
+        "ID" : 3,
+        "name" : "React Native App",
+        "price" : 5000
+      }
+    ]
+  }
+
+]

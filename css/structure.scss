@@ -1,0 +1,789 @@
+@import "util";
+
+body.primary{
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+
+  .menu {
+    width: $primaryMenuWidth;
+    z-index: 110;
+    background: #ffffff;
+    box-shadow: $shadow;
+    position: relative;
+    @extend .transition03;
+
+    .menuContainerPositioning {
+      width: $primaryMenuWidth;
+      position: absolute;
+      .menuContainer {
+        position: fixed;
+        //height: 100%;
+        width: $primaryMenuWidth;
+        display: flex;
+        flex-direction: column;
+
+        .menuLogo {
+          width: 100%;
+          height: $primaryToolbarHeight;
+          padding: 15px 25px 5px 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          user-select: none;
+          img {
+            width: 100%;
+            max-width: 200px;
+            height: 100%;
+            object-fit: contain;
+            filter: grayscale(100%);
+          }
+        }
+
+        .menuLogo::before{
+          @extend .transition02;
+          user-select: none;
+        }
+        .menuLogo:active::before,.menuLogo:focus::before,.menuLogo:hover::before{
+          @extend .transition03;
+        }
+
+        .menuList {
+          height: 100%;
+          width: 100%;
+          padding: 20px 10px 10px 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          overflow-y: auto;
+
+          .menuItem {
+            @extend .transition03;
+            width: 100%;
+            height: 54px;
+            background: #ffffff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 9px;
+            cursor: pointer;
+            position: relative;
+            border: 1px solid #eeeeee;
+            border-radius: 6px;
+            text-decoration: none !important;
+
+            .menuItemIcon {
+              width: 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              i {
+                font-size: 16pt;
+                color: $colorSecondary;
+                line-height: 0;
+              }
+            }
+
+            .menuItemTitle {
+              padding: 0;
+              line-height: 1.3;
+              margin-top: -3px;
+
+              span {
+                padding: 0;
+                font-size: 10pt;
+                font-family: $fontPrimary;
+                font-weight: 400;
+                color: #aaaaaa;
+
+              }
+            }
+
+            .menuItemBadge {
+              position: absolute;
+              right: -8px;
+              top: -5px;
+              height: 24px;
+              width: 24px;
+              background: $redWarning;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              span {
+                color: #ffffff;
+                font-size: 8pt;
+                font-weight: 500;
+                line-height: 0;
+              }
+            }
+
+          }
+
+          .menuItem:hover:not(.selected) {
+            @extend .transition02;
+            background: #f9f9f9;
+          }
+
+          .menuItem.selected {
+            background: $colorSecondary;
+            box-shadow: $shadowSecondary;
+            border: none;
+            .menuItemIcon {
+              i {
+                color: #ffffff;
+              }
+            }
+            .menuItemTitle {
+              span {
+                color: #ffffff;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+  .structure{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    z-index: 99;
+    height: 100%;
+
+    header{
+      height: $primaryToolbarHeight;
+      z-index: 99;
+      background: $colorDark;
+      box-shadow: $shadowMini;
+      .toolbarContainer{
+        width: 100%;
+        max-width: $canvasWidth;
+        margin: 0 auto;
+
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 5px;
+        .toolbarLogo{
+          width: 120px;
+          height: 100%;
+          padding: 1px 0;
+
+
+          img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+
+          }
+        }
+        .toolbarTitle{
+
+          font-size: 12pt;
+          font-weight: 400;
+          color: #222222;
+
+        }
+        .toolbarTitle::before{
+          @extend .transition02;
+        }
+        .toolbarTitle:active::before,.toolbarTitle:focus::before,.toolbarTitle:hover::before{
+          @extend .transition03;
+        }
+
+        .toolbarMenu{
+          flex: 1;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-end;
+          height: 100%;
+          .toolbarProfile{
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .toolbarProfileImage{
+              height: 40px;
+              width: 40px;
+              border-radius: 50%;
+              background: $colorSecondary;
+              margin-right: 15px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              i{
+                user-select: none;
+                color: #ffffff;
+                line-height: 0;
+                font-size: 17pt;
+              }
+              img{
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+              }
+            }
+            .toolbarProfileName{
+              min-width: 60px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: flex-start;
+              span{
+                color: #888888;
+                font-size: 9pt;
+                font-weight: 300;
+              }
+              p{
+                font-size: 10pt;
+                font-weight: 600;
+                color: #222222;
+              }
+            }
+          }
+          .toolbarButtons{
+            padding-left: 20px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            //border-left: 0.5px solid rgba(#fff,0.5);
+
+            .buttonTable{
+              @include buttonOutlineCustom($colorPrimary, $colorPrimary);
+              img{
+                height: 20px;
+                width: 20px;
+                object-fit: contain;
+              }
+            }
+            .buttonActions{
+              @include buttonOutlineCustom($colorSecondary,$colorSecondary, $colorDark);
+              margin-right: 10px;
+            }
+
+
+            a{
+              @extend .buttonMiniGray;
+            }
+          }
+        }
+      }
+    }
+
+
+    .structureContent{
+      flex: 1;
+      width: 100%;
+      padding: 30px;
+
+
+      .sectionTitle{
+        font-size: 16pt;
+        font-weight: 300;
+        color: #222222;
+        margin-bottom: 20px;
+      }
+
+
+    }
+  }
+  .overlay, .overlay-action{
+    height: 100vh;
+    width: 100vw;
+    background : #000;
+    opacity: 0.8;
+    z-index: 105;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    overflow-y: hidden;
+    display: none;
+  }
+
+
+  .cover,.cover-action{
+    height: 100vh;
+    width: 50vw;
+    position: fixed;
+    z-index: 115;
+    top:0;
+    bottom: 0;
+    right: -2000px;
+    background : $colorDark;
+    box-shadow:  0 5px 5px 0 rgba(0, 0, 0,0.15), 0 2px 6px 0 rgba(0, 0, 0,0.15);
+    overflow: hidden;
+    @extend .transition05;
+
+    .cover-container{
+      padding: 20px 30px 0 30px;
+
+      height: 100%;
+      width: 100%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      .cover-header{
+        position: relative;
+        display: flex;
+        height: 60px;
+        align-items: flex-start;
+
+        .cover-header-close{
+          position: fixed;
+          height: 60px;
+          width: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          margin-left: - 100px;
+          margin-top: - 15px;
+          cursor: pointer;
+          background: $colorDark;
+          box-shadow: $shadowSpecialElement;
+
+          @extend .transition02;
+          i{
+            color: #ffffff;
+            font-size: 14pt;
+          }
+
+          &:hover, &:active, &:focus{
+            filter: brightness(110%);
+            @extend .transition02;
+          }
+        }
+        .cover-header-title{
+          display: flex;
+          width: 100%;
+          justify-content: flex-start;
+          align-items: center;
+
+          i{
+            color: $colorPrimary;
+            padding-right: 5px;
+            font-size: 18pt;
+          }
+          p{
+            font-size: 16pt;
+            font-weight: 600;
+            color: $colorPrimary;
+            text-transform: capitalize;
+            margin: 0;
+
+          }
+        }
+      }
+      .cover-content{
+
+        .cover-item{
+          padding-bottom: 15px;
+
+          .cover-item-name{
+            display: flex;
+            align-items: center;
+            padding-bottom: 5px;
+
+            p{
+              color: #fff;
+              font-size: 12pt;
+              font-weight: 200;
+              font-family: $fontSecondary;
+              display: flex;
+              align-items: center;
+
+
+              span{
+                padding-left: 5px;
+                font-weight: 600;
+
+              }
+            }
+          }
+          .cover-item-table{
+            table {
+              color: #fff; /* Lighten up font color */
+              width: 100%;
+              border-collapse: collapse;
+              border-spacing: 0;
+              background: rgba(0,0,0,0.1);
+              border-radius: 6px;
+              font-weight: $fontSecondary;
+              table-layout: auto;
+            }
+
+            td, th { border: 1px solid #fff; height: 42px; background: transparent; } /* Make cells a bit taller */
+
+            th {
+              background: transparent;
+              font-weight: 600;
+              padding: 0 0 0 12px;
+              text-align: left;
+              font-size: 12pt;
+            }
+
+            td {
+              background: transparent;
+              text-align: left;
+              padding: 0 0 0 12px;
+              font-weight: 200;
+              font-size: 11pt;
+
+            }
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+  .cover-action{
+    .cover-container{
+      .cover-header{
+        .cover-header-title{
+          i,p{
+            color: $colorSecondary !important;
+          }
+        }
+      }
+      .cover-content{
+        .cover-content-section{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+
+
+          .cover-content-function{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 5px;
+
+
+            .cover-content-function-header{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: flex-start;
+              padding-bottom: 5px;
+
+              p{
+                color: $colorSecondary;
+                font-size: 14pt;
+                font-weight: 400;
+                font-family: $fontPrimary;
+                span{
+                  font-weight: 200;
+                  color: #fff;
+                }
+              }
+
+
+
+              .toggle{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                margin-left: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #222;
+                cursor: pointer;
+                i{
+                  color: #fff;
+                  font-size: 14pt;
+                }
+                @extend .transition02;
+              }
+            }
+            .cover-content-function-body{
+              height: 0;
+              background: rgba(0,0,0,0.2);
+              border-radius: 6px;
+              overflow: hidden;
+              @extend .transition03;
+
+              .cover-content-function-body-container {
+                padding: 10px;
+                span {
+                  color: #fff;
+                  font-size: 12pt;
+                  font-weight: 300;
+                  white-space: pre-wrap;
+
+                }
+              }
+
+
+
+            }
+
+            &.show{
+              .cover-content-function-body{height: auto;  @extend .transition03;};
+              .cover-content-function-header{
+                .toggle{
+                  transform: rotate(180deg);
+                  @extend .transition02;
+                }
+              }
+            }
+
+          }
+
+
+        }
+      }
+    }
+  }
+
+
+}
+
+body.primary.menu-visible{
+  .menu{
+    @extend .transition03;
+  }
+  .cover{
+    right: 0;
+    @extend .transition04;
+  }
+}
+
+body.primary.menu-action-visible{
+  .cover-action{
+    right: 0;
+    @extend .transition04;
+  }
+}
+
+
+
+
+$primaryMenuWidthMobile : 80%;
+
+@media all and (max-width: $col-lg){
+
+  body.primary {
+    .menu{
+      height: 100vh;
+      width: $primaryMenuWidthMobile;
+      z-index: 110;
+      background: #ffffff;
+      box-shadow: $shadow;
+      position: fixed;
+      left: - $primaryMenuWidthMobile;
+      .menuContainerPositioning {
+        width: 100%;
+        position: relative;
+        .menuContainer {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          overflow-y: scroll;
+
+          .menuLogo {
+            width: 100%;
+            height: $primaryToolbarHeight;
+            display: flex;
+            margin-bottom: 0;
+            padding: 0;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            img {
+              flex: 1;
+              padding: 10px;
+              max-width: calc(100% - 120px);
+              height: 100%;
+              object-fit: contain;
+              filter: grayscale(100%);
+            }
+          }
+          .menuLogo::before {
+            position: absolute;
+            left: 0;
+            content: '\2715';
+            height: 42px;
+            width: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color: #000;
+            background: #f5f5f5;
+            border: 1px solid #eeeeee;
+            margin-right: 0;
+            margin-left: 10px;
+          }
+          .menuLogo:active::before,.menuLogo:focus::before,.menuLogo:hover::before{
+            background: #ffffff;
+          }
+
+
+          .menuList {
+
+            .menuItem {
+
+              .menuItemIcon {  }
+
+              .menuItemTitle {
+                padding: 0;
+                span {
+                  padding: 0;
+                  font-size: 10pt;
+                  font-family: $fontPrimary;
+                  font-weight: 400;
+                  color: #aaaaaa;
+
+                }
+              }
+
+              .menuItemBadge {
+                position: absolute;
+                right: -8px;
+                top: -5px;
+                height: 24px;
+                width: 24px;
+                background: $redWarning;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                user-select: none;
+                span {
+                  color: #ffffff;
+                  font-size: 8pt;
+                  font-weight: 500;
+                  line-height: 0;
+                }
+              }
+
+            }
+
+            .menuItem.selected {
+              background: $colorSecondary;
+              box-shadow: $shadowSecondary;
+              border: none;
+              .menuItemIcon {
+                i {
+                  color: #ffffff;
+                }
+              }
+              .menuItemTitle {
+                span {
+                  color: #ffffff;
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+    .menu + main{
+      overflow-y: hidden;
+    }
+
+    .structure{
+      header{
+        .toolbarContainer{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 10px 10px;
+          .toolbarTitle{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+          .toolbarTitle::before{
+            content: '\2630';
+            height: 42px;
+            width: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color: #000;
+            background: #f5f5f5;
+            border: 1px solid #eeeeee;
+            margin-right: 15px;
+            margin-left: 0;
+          }
+          .toolbarTitle:active::before,.toolbarTitle:focus::before,.toolbarTitle:hover::before{
+            background: #ffffff;
+          }
+
+          .toolbarMenu{
+            flex: 1;
+            .toolbarProfile{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              .toolbarProfileImage{ margin-right: 0!important; }
+              .toolbarProfileName{
+                display: none;
+              }
+            }
+            .toolbarButtons{
+              //display: none;
+            }
+          }
+
+        }
+      }
+
+
+      .structureContent{
+        padding: 10px;
+
+
+        .sectionTitle{
+          font-size: 14pt;
+          font-weight: 300;
+          color: #222222;
+          margin-bottom: 20px;
+        }
+
+
+      }
+    }
+
+    .cover, .cover-action{
+      width: 90vw;
+    }
+
+
+  }
+
+  body.primary.menu-visible{
+    overflow-y: hidden;
+    .menu{left:0;}
+  }
+
+}
+
+
+

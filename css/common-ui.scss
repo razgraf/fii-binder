@@ -1,0 +1,981 @@
+@import "../base/config";
+
+
+/**
+------------------
+
+DEFAULT BUTTONS
+
+------------------
+ */
+
+.button{
+  user-select: none;
+  min-height: 46px;
+  padding: 5px 20px;
+  min-width: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  -webkit-appearance: none !important;
+  border: none;
+  outline: none;
+  .loader i {  color: #ffffff !important;}
+  img{
+    margin-right: 6px;
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    filter: brightness(1) invert(0);
+    @extend .transition02;
+    -webkit-backface-visibility: hidden;
+
+
+
+
+  }
+  i{
+    color: #ffffff;
+    font-size: 14pt;
+    margin-right: 6px;
+    @extend .transition02;
+  }
+  span{
+    color: #ffffff;
+    font-family: $fontPrimary;
+    font-size: 10pt;
+    letter-spacing: 0.5pt;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-underline: none;
+    @extend .transition02;
+  }
+
+  @extend .transition02;
+
+  &:hover,&:active,&:focus{
+    @extend .transition03;
+    transform: translate(0,-3px);
+    outline: none;
+    i,span{
+      @extend .transition03;
+    }
+    img{
+      @extend .transition03;
+    }
+  }
+}
+
+.buttonPrimary{
+  @extend .button;
+  background: $colorPrimary;
+  &:hover,&:active,&:focus{
+    background: $colorPrimaryLight;
+  }
+}
+.buttonSecondary{
+  @extend .button;
+  background: $colorSecondary;
+  &:hover,&:active,&:focus{
+    background: $colorSecondaryLight;
+  }
+}
+.buttonGray{
+  @extend .button;
+  background: #bbbbbb;
+  &:hover,&:active,&:focus{
+    background: #cccccc;
+  }
+}
+.buttonOutline{
+  @extend .button;
+  background: transparent;
+  border: 1px solid #000;
+  .loader i {  color: #000 !important;}
+  i{
+    color: #000;
+  }
+  span{
+    color: #000;
+  }
+
+  &:hover, &:active, &:focus{
+    @extend .transition03;
+    background: rgba(0,0,0,0.04);
+    transform: none;
+  }
+
+
+}
+
+
+
+
+@mixin buttonCustom($background, $text : #fff){
+  background: $background !important;
+  @extend .button;
+  i{
+    color: $text!important;
+  }
+
+  span{
+    color: $text !important;
+  }
+
+}
+@mixin buttonOutlineCustom($border, $text, $hoverText : #fff){
+  @extend .buttonOutline;
+  background: transparent;
+  border: 1px solid $border;
+
+  .loader i {  color: $text !important;}
+
+
+  i{
+    color: $text!important;
+  }
+
+  span{
+
+    color: $text !important;
+  }
+
+  &:hover,&:active,&:focus{
+    background: $border;
+    i,span,.loader i{color: $hoverText !important;}
+    img{
+      filter: brightness(0) invert(1);
+    }
+  }
+
+
+}
+
+
+/**
+------------------
+
+MINI BUTTONS
+
+------------------
+ */
+
+
+.buttonMini{
+  user-select: none;
+  min-height: 36px;
+  padding: 4px 12px;
+  min-width: 60px;
+  border-radius: 3px!important;
+  display: flex!important;
+  flex-direction: row!important;
+  justify-content: center!important;
+  align-items: center!important;
+  text-align: center!important;
+  cursor: pointer!important;
+
+  .loader i {  color: #ffffff !important;}
+
+  i{
+    color: #ffffff;
+    font-size: 11pt;
+    margin-right: 4px;
+    @extend .transition02;
+  }
+
+  span{
+    color: #ffffff;
+    font-family: $fontPrimary !important;
+    font-size: 9pt;
+    font-weight: 500;
+    text-decoration: none;
+    text-underline: none;
+    text-transform: capitalize;
+
+    @extend .transition02;
+  }
+
+  @extend .transition02;
+
+  &:hover,&:active,&:focus{
+    @extend .transition03;
+    i,span{
+      @extend .transition03;
+    }
+  }
+}
+
+.buttonMiniPrimary{
+  @extend .buttonMini;
+  background: $colorPrimary!important;
+
+  &:hover,&:active,&:focus{
+    background: $colorPrimaryLight!important;
+  }
+}
+.buttonMiniSecondary{
+  @extend .buttonMini;
+  background: $colorSecondary!important;
+
+  &:hover,&:active,&:focus{
+    background: $colorSecondaryLight!important;
+  }
+}
+.buttonMiniGray{
+  @extend .buttonMini;
+  background: #bbbbbb !important;
+  &:hover,&:active,&:focus{
+    background: #cccccc!important;
+  }
+}
+.buttonMiniOutline{
+  @extend .buttonMini;
+  background: transparent;
+  border: 1px solid #000;
+  .loader i {  color: #000 !important;}
+  i{
+    color: #000;
+  }
+  span{
+    color: #000;
+  }
+
+  &:hover, &:active, &:focus{
+    @extend .transition03;
+    background: rgba(0,0,0,0.04);
+    transform: none;
+  }
+
+
+}
+
+
+
+@mixin buttonMiniCustom($background, $text : #fff){
+  @extend .buttonMini;
+  display: flex!important;
+  flex-direction: row!important;
+  justify-content: center!important;
+  align-items: center!important;
+  text-align: center!important;
+  cursor: pointer!important;
+  background: $background;
+
+
+  .loader i {  color: $text !important;}
+
+
+  i{
+    color: $text!important;
+  }
+
+  span{
+    color: $text !important;
+    font-family: $fontPrimary;
+  }
+
+  &:hover,&:active,&:focus{
+    background: lighten($background, 10%);
+  }
+}
+@mixin buttonMiniOutlineCustom($border, $text, $hoverText : #fff){
+  @extend .buttonMiniOutline;
+  background: transparent;
+  border: 1px solid $border !important;
+
+  .loader i {  color: $text !important;}
+
+
+  i{
+    color: $text!important;
+  }
+
+  span{
+    color: $text !important;
+  }
+
+
+  &:hover,&:active,&:focus{
+    background: $border;
+    i,span,.loader i{color: $hoverText !important;}
+  }
+
+}
+
+
+
+
+/**
+------------------
+
+STYLISH BUTTONS
+
+------------------
+ */
+
+
+
+.buttonGradient{
+  @include buttonCustom(#fff);
+  @include gradient();
+  background-size: 200%;
+  &:hover,&:active,&:focus{
+    background-position-x: 100%;
+  }
+}
+.buttonMiniGradient{
+  @include buttonMiniCustom(#fff);
+  @include gradient();
+  background-size: 200%;
+  &:hover,&:active,&:focus{
+    background-position-x: 100%;
+  }
+}
+
+
+@media all and (max-width: $col-lg){
+
+  .button{
+    min-height: 40px;
+    padding: 5px 15px;
+    min-width: 80px;
+
+    i{
+      color: #ffffff;
+      font-size: 12pt;
+      margin-right: 5px;
+    }
+    span{
+      color: #ffffff;
+      font-family: $fontPrimary;
+      font-size: 9pt;
+    }
+
+  }
+  .buttonMini{
+    min-height: 34px;
+    padding: 4px 9px;
+    min-width: 50px;
+
+    i{
+      color: #ffffff!important;
+      font-size: 12pt!important;
+      margin-right: 3px!important;
+    }
+
+    span{
+      font-size: 8pt;
+    }
+
+  }
+}
+
+
+
+.dummy{
+  opacity: 0.35!important;
+  user-select:none!important;
+  @extend .disableClick;
+  animation-name: none!important;
+  transition: none!important;
+  animation:none!important;
+  animation-duration: 0s !important;
+  color: #fff;
+}
+
+
+input.default{
+  color: #000;
+  font-size: 12pt;
+  font-family: $fontPrimary;
+  font-weight: 300;
+  text-decoration: none;
+  outline: none;
+}
+input.default::-webkit-input-placeholder { color: #ccc; }
+input.default::-moz-placeholder {color: #ccc; }
+input.default:-ms-input-placeholder { color: #ccc;}
+
+
+
+
+
+.field{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10px;
+
+
+
+  label{
+    margin-bottom: 5px;
+    color: #a2a7a8;
+    font-size: 9pt;
+    order: 1;
+    font-weight: 600;
+    font-family: $fontPrimary;
+    text-transform: uppercase;
+    @extend .transition02;
+  }
+  input,textarea{
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #E2E8EA;
+    order: 2;
+    height: 46px;
+    color: #000000;
+    font-size: 12pt;
+    font-family: $fontPrimary;
+    font-weight: 300;
+    text-decoration: none;
+    outline: none;
+
+    &::-webkit-input-placeholder { color: #a2a7a8; }
+    &::-moz-placeholder {color: #a2a7a8; }
+    &:-ms-input-placeholder { color: #a2a7a8;}
+  }
+
+  textarea{
+    resize: none;
+    height: 150px;
+  }
+
+  input:-webkit-autofill, textarea:-webkit-autofill {
+    -webkit-text-fill-color: #000 !important;
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    background-color: transparent !important;
+  }
+  input:active, input:focus,  textarea:active, textarea:focus{
+    //border-color: #d8dfe0;
+
+  }
+  input:active + label, input:focus + label,  textarea:active + label, textarea:focus + label {
+    color: #d8dfe0;
+    @extend .transition02;
+  }
+
+
+
+  input.warn, textarea.warn{
+    border-color: $red;
+    color: $red;
+
+    &~p, &~label{
+      color: $red;
+    }
+
+    &::-webkit-input-placeholder { color: $red; opacity: 0.5; }
+    &::-moz-placeholder {color: $red;opacity: 0.5; }
+    &:-ms-input-placeholder { color: $red;opacity: 0.5;}
+
+  }
+
+
+}
+
+.customLabel{
+  width: 100%;
+  margin-bottom: 15px;
+  color: #a2a7a8;
+  font-size: 9pt;
+  font-weight: 600;
+  font-family: $fontPrimary;
+  text-transform: uppercase;
+}
+
+
+/**
+Checkbox, Radio, Input, Select, ImageUpload
+ */
+
+$checkboxSize : 28px;
+.checkbox {
+  position: relative;
+  display: flex;
+  min-height: $checkboxSize;
+  align-items: center;
+  label {
+    cursor: pointer;
+    position: absolute;
+    width: $checkboxSize;
+    height: $checkboxSize;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border: 1px solid #aaaaaa;
+    border-radius: 2px;
+
+  }
+  label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: $checkboxSize / 2.5;
+    height: $checkboxSize / 2.5 - 5;
+    background: transparent;
+    top: 8px;
+    left: 7px;
+    border: 2px solid $colorSecondary;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+
+  }
+  label:hover {
+    background: #f9f9f9;
+    border: 1px solid #888888;
+  }
+  label:hover ~ p {
+    color: #777;
+  }
+  input{
+    height: $checkboxSize;
+    width: $checkboxSize;
+    opacity: 0;
+  }
+  input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+  input[type=checkbox]:checked ~ p{
+    color: $colorSecondary;
+  }
+
+  p{
+    position: relative;
+    font-size: 10pt;
+    font-weight: 500;
+    font-family: $fontPrimary;
+    color: #888;
+    margin-left: 7px;
+    margin-right: 2px;
+  }
+}
+
+
+.radio {
+  position: relative;
+  display: flex;
+  min-height: $checkboxSize;
+  align-items: center;
+  label {
+    cursor: pointer;
+    position: absolute;
+    width: $checkboxSize;
+    height: $checkboxSize;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border: 1px solid #aaaaaa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  label:after {
+    opacity: 0;
+    content: '';
+    position: relative;
+    width: 14px ;
+    height: 14px ;
+    background: transparent;
+    border-radius: 50%;
+    background: $colorSecondary;
+
+  }
+  label:hover {
+    background: #f9f9f9;
+    border: 1px solid #888888;
+  }
+  label:hover ~ p {
+    color: #777;
+  }
+  input{
+    height: $checkboxSize;
+    width: $checkboxSize;
+    opacity: 0;
+  }
+  input[type=radio]:checked + label:after {
+    opacity: 1;
+  }
+  input[type=radio]:checked ~ p{
+    color: $colorSecondary;
+  }
+
+  p{
+    position: relative;
+    font-size: 10pt;
+    font-weight: 500;
+    font-family: $fontPrimary;
+    color: #888;
+    margin-left: 7px;
+    margin-right: 2px;
+
+  }
+}
+.input{
+  @extend .field;
+  label{display: none;}
+  p{
+    margin-bottom: 5px;
+    color: #a2a7a8;
+    font-size: 9pt;
+    order: 1;
+    font-weight: 600;
+    font-family: $fontPrimary;
+    text-transform: uppercase;
+    @extend .transition02;
+  }
+
+  input:active, input:focus,  textarea:active, textarea:focus{
+    //border-color: #bec5c6;
+
+    &~p, &+p{
+      color:#BEC5C6 !important;
+      @extend .transition02;
+    }
+  }
+
+
+
+  &.force-active{
+    input,textarea{
+      border-color: $colorSecondary;
+      color: $colorSecondary !important;
+      background: #f5f5f5;
+    }
+    p{
+      color: $colorSecondary !important;
+    }
+  }
+
+
+}
+
+.select{
+  @extend .field;
+  select{
+    border-radius: 5px;
+    background: #ffffff;
+    border: 1px solid #E2E8EA;
+    order: 2;
+    height: 46px;
+    color: #000000;
+    font-size: 12pt;
+    font-family: $fontPrimary;
+    font-weight: 300;
+    text-decoration: none;
+    outline: none;
+    background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 5px 20px;
+    position: relative;
+  }
+  datalist{
+    select{
+      margin-top: 76px !important;
+      height: auto !important;
+      background: #ffffff !important;
+      max-height: 100px;
+      overflow-y: scroll;
+      border-radius: 6px;
+
+    }
+  }
+  label{
+    display: none;
+  }
+  > p{
+    margin-bottom: 5px;
+    color: #a2a7a8;
+    font-size: 9pt;
+    font-weight: 600;
+    font-family: $fontPrimary;
+    text-transform: uppercase;
+  }
+
+  .input{
+    padding-top: 10px;
+
+    order :2;
+  }
+}
+
+
+.group-checkbox, .group-radio{
+  display: flex;
+  flex-direction: column;
+
+  > p{
+    margin-bottom: 5px;
+    color: #a2a7a8;
+    font-size: 9pt;
+    font-weight: 600;
+    font-family: $fontPrimary;
+    text-transform: uppercase;
+  }
+
+  .container{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-column-gap: 10px !important;
+    grid-row-gap: 10px !important;
+    padding: 5px !important;
+    border: 1px solid #E2E8EA;
+    border-radius: 4px;
+    min-height: 46px !important;
+    align-items: center;
+    .checkbox,.radio{
+      grid-column: span 1;
+    }
+  }
+
+}
+
+
+$uploadContainerSize : 250px;
+
+.upload{
+  width: auto;
+  max-width: $uploadContainerSize;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+
+  label,p{
+    margin-bottom: 5px;
+    color: #a2a7a8;
+    font-size: 9pt;
+    order: 1;
+    font-weight: 600;
+    font-family: $fontPrimary;
+    text-transform: uppercase;
+    @extend .transition02;
+  }
+
+  .upload-container{
+    order: 2;
+    width: $uploadContainerSize;
+    height: $uploadContainerSize;
+
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #E2E8EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+
+    div.picture{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: darken($backgroundColor,10%);
+      input{
+
+        display: none;
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .upload-action{
+    width: $uploadContainerSize;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    padding-top: 14px;
+    order: 3;
+    .upload-button{
+      grid-column: span 1;
+      @include buttonMiniOutlineCustom($colorPrimary, $colorPrimary);
+
+    }
+    .upload-button-remove{
+      grid-column: span 1;
+      @include buttonMiniOutlineCustom($red, $red);
+    }
+  }
+
+
+
+
+  .upload-container.warn{
+    border-color: $red;
+    color: $red;
+
+    ~p, label{
+      color: $red;
+    }
+  }
+  input.warn::-webkit-input-placeholder { color: $red; }
+  input.warn::-moz-placeholder {color: $red; }
+  input.warn:-ms-input-placeholder { color: $red;}
+
+}
+
+
+.cardView{
+  width: 100%;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: $shadowMini;
+  min-height: 20px;
+  margin-bottom: 20px;
+  .content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: $col-lg){
+  .cardView{
+    .content{
+      padding: 10px;
+    }
+  }
+}
+
+.containerBorder{
+  min-height: 36px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #eeeeee;
+  min-width: 100px;
+}
+
+.contentLabel{
+  font-size: 10pt;
+  color: #a3a5a6;
+  display: inline-flex;
+  font-weight: 600;
+  font-family: $fontPrimary;
+}
+.contentLabel::after{
+  content : "";
+  padding-left: 1px;
+  padding-right: 5px;
+}
+
+
+.contentContainer{
+  display: flex;
+  align-items: center;
+  margin: 5px 10px 5px 0;
+  i{
+    font-size: 12pt;
+    color: #a3a5a6;
+    margin-right: 5px;
+  }
+  span:not(.contentLabel) {
+    color: #000000;
+    font-weight: 400;
+    font-size: 10pt;
+
+  }
+}
+
+
+body .mobileOnly{
+  display: (none !important);
+}
+
+@media all and (max-width: $col-lg){
+  body .mobileOnly{
+    display: (flex !important);
+  }
+}
+
+
+.customScroll::-webkit-scrollbar-track {
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+.customScroll::-webkit-scrollbar {
+  width: 10px;
+}
+.customScroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #dddddd;
+}
+
+
+
+.defaultContainer{
+  max-width: $canvasWidth;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+@media all and (max-width: $col-lg){
+  .defaultContainer{
+    max-width: $canvasWidth;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+}
+
+
+
+
+
+@keyframes placeholder-animation {
+  from{
+    opacity:0.3;
+  }
+  to{
+    opacity: 1;
+  }
+}
+html body{
+  .placeholder-image{
+    background: #f2f2f2 url('data:image/svg+xml;utf8,<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g fill="none" fill-rule="evenodd" stroke-width="2"><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="0s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="0s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="-0.9s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="-0.9s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle></g></svg>') no-repeat center;
+    background-size: 100px 100px !important;
+    img{
+      &[src=""],&[src="#"]{
+        display: none !important;
+      }
+    }
+  }
+  .placeholder-image-mini {
+    @extend .placeholder-image;
+    background-size: 40px 40px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+

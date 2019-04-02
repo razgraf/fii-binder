@@ -1,0 +1,252 @@
+$colorPrimary :  #f9163d;//#006bd5;
+$colorSecondary : #ffd833;
+$colorDark : #2e3035;
+
+
+$colorPrimaryLight : lighten( $colorPrimary, 20% );
+$colorSecondaryLight : lighten( $colorSecondary, 5% );
+
+
+$fontPrimary :  'Montserrat','Open Sans', sans-serif;
+$fontSecondary :   'Open Sans','Open Sans', sans-serif;
+
+
+
+$backgroundColor : #f6f7f9;
+$canvasWidth : 1300px;
+$canvasSide : 10px;
+
+
+$colorPurplePrimary :#7F00FF;//#b721ff;
+$colorPurpleSecondary:#E100FF;//#21d4fd;
+
+
+$shadowPrimary : 0 0 20px 0 rgba($colorPrimary, .4);
+$shadowSecondary : 0 0 20px 0 rgba($colorSecondary, .35);
+
+$shadowSecondaryMini : 0 0 15px 0 rgba($colorSecondary, .15);
+
+$col-lg-extended : 1100px;
+$col-lg : 992px;
+$col-md: 768px;
+
+@mixin gradient($angle : 45deg, $primaryDistance : 30%){
+  background: $colorPrimaryLight; //for browsers that do not support gradient
+  background: linear-gradient($angle, $colorPrimary $primaryDistance, $colorSecondary);
+  background: -webkit-linear-gradient($angle, $colorPrimary $primaryDistance, $colorSecondary);
+  background: -moz-linear-gradient($angle, $colorPrimary $primaryDistance, $colorSecondary);
+  background: -o-linear-gradient($angle, $colorPrimary $primaryDistance, $colorSecondary);
+}
+
+@mixin gradientOrange($angle : 45deg, $primaryDistance : 30%){
+  background: rgba(252, 102, 33, 1); //for browsers that do not support gradient
+  background: linear-gradient($angle, rgba(252, 102, 33, 1) $primaryDistance, rgba(249, 171, 35, 1));
+  background: -webkit-linear-gradient($angle, rgba(252, 102, 33, 1)$primaryDistance, rgba(249, 171, 35, 1));
+  background: -moz-linear-gradient($angle, rgba(252, 102, 33, 1)$primaryDistance, rgba(249, 171, 35, 1));
+  background: -o-linear-gradient($angle, rgba(252, 102, 33, 1)$primaryDistance, rgba(249, 171, 35, 1));
+}
+
+
+.gradient25Orange{
+  background: rgba(252, 102, 33, 1); //for browsers that do not support gradient
+  background: linear-gradient(25deg, rgba(252, 102, 33, 1), rgba(249, 171, 35, 1));
+  background: -webkit-linear-gradient(25deg, rgba(252, 102, 33, 1), rgba(249, 171, 35, 1));
+  background: -moz-linear-gradient(25deg, rgba(252, 102, 33, 1), rgba(249, 171, 35, 1));
+  background: -o-linear-gradient(25deg, rgba(252, 102, 33, 1), rgba(249, 171, 35, 1));
+}
+
+
+
+@mixin gradientPurple($angle : 45deg, $primaryDistance : 30%){
+  background: $colorPurplePrimary; //for browsers that do not support gradient
+  background: linear-gradient($angle, $colorPurplePrimary $primaryDistance, $colorPurpleSecondary);
+  background: -webkit-linear-gradient($angle, $colorPurplePrimary $primaryDistance, $colorPurpleSecondary);
+  background: -moz-linear-gradient($angle, $colorPurplePrimary $primaryDistance, $colorPurpleSecondary);
+  background: -o-linear-gradient($angle, $colorPurplePrimary $primaryDistance, $colorPurpleSecondary);
+}
+
+
+$colorOrangePrimary : rgb(249, 212, 35);
+$colorOrangeSecondary : rgb(255, 78, 80);
+
+$shadowOrangeNormal : 0 0 10px 0 rgba(249, 212, 35,.9);
+$shadowOrangeHover : 0 0 10px 0 rgba(255, 78, 80,.6);
+
+$angleOrange : 25deg;
+
+.gradientOtherOrange {
+  background: $colorOrangePrimary; //for browsers that do not support gradient
+  background: linear-gradient($angleOrange, $colorOrangePrimary, $colorOrangeSecondary);
+  background: -webkit-linear-gradient($angleOrange, $colorOrangePrimary, $colorOrangeSecondary);
+  background: -moz-linear-gradient($angleOrange, $colorOrangePrimary, $colorOrangeSecondary);
+  background: -o-linear-gradient($angleOrange, $colorOrangePrimary, $colorOrangeSecondary);
+}
+
+
+
+$colorBluePrimary : #04befe;
+$colorBlueSecondary : #03A0DC;
+
+$colorBlueBootstrapLight : #328fff;
+$colorBlueBootstrap : #157EFB;
+$colorBlueBootstrapHover :#0062cc;
+
+
+.gradientBlue {
+  background: $colorBluePrimary; //for browsers that do not support gradient
+  background: linear-gradient(15deg, rgba(68, 129, 235, 1), rgba(4, 190, 254, 1));
+  background: -webkit-linear-gradient(15deg, rgba(68, 129, 235, 1), rgba(4, 190, 254, 1));
+  background: -moz-linear-gradient(15deg, rgba(68, 129, 235, 1), rgba(4, 190, 254, 1));
+  background: -o-linear-gradient(15deg, rgba(68, 129, 235, 1), rgba(4, 190, 254, 1));
+}
+
+
+
+$red : #F44336;
+$green : #43e97b;
+$redWarning : #F44336;
+$redWarningDark : #c5362c;
+
+$yellowWarning : #FFC107;
+
+
+
+
+$shadow : 0 5px 30px 0 rgba(0, 0, 0 ,0.07), 0 2px 9px 0 rgba(0, 0, 0, 0.08);
+
+
+
+$shadowMini : 0 1px 5px 0 rgba(0, 0, 0,0.05), 0 1px 5px 0 rgba(0, 0, 0,0.05);
+$shadowNormal :$shadow;
+$shadowHover : 0 5px 30px 0 rgba(0, 0, 0,0.15), 0 2px 9px 0 rgba(0, 0, 0,0.1);
+$shadowSpecialElement : 0 0 30px 0 rgba(0,0,0,.085);
+$shadowSpecialElementHover : 0 0 30px 0 rgba(0,0,0,.15);
+
+
+$shadowGradientNormal : 0 0 20px 0 rgba(4, 190, 254,.3);
+$shadowGradientHover : 0 0 30px 0 rgba(4, 190, 254,.6);
+
+$shadowOrangeNormal: 0 0 20px 0 rgba(252, 102, 33,.3);
+$shadowOrangeHover: 0 0 20px 0 rgba(252, 102, 33,.6);
+
+
+$shadowWhiteNormal : 0 0 20px 0 rgba(255, 255, 255,.3);
+$shadowWhiteHover : 0 0 30px 0 rgba(255, 255, 255,.6);
+$shadowWhiteSpecial : 0 0 35px 0 rgba(255, 255, 255,.8);
+
+.colorPrimary{
+  color: $colorPrimary !important;
+}
+.colorSecondary{
+  color: $colorSecondary !important;
+}
+.backgroundPrimary{
+  background: $colorPrimary !important;
+}
+.backgroundSecondary{
+  background: $colorSecondary !important;
+}
+
+
+
+.truncate {
+  //width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.transition01{
+  transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+}
+.transition02{
+  transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.transition03{
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.transition04{
+  transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+
+.transition05{
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+
+.disableClick{
+  filter: grayscale(50%);
+  opacity: 0.5;
+  pointer-events:none
+}
+
+.initWithFade{
+  animation-name: fadein;
+  animation-duration: 0.3s;
+}
+.exitWithFade{
+  animation-name: fadeout;
+  animation-duration: 0.3s;
+}
+
+
+
+*{  font-family: $fontSecondary;  }
+p,h1,h2,h3,h4,h5{margin-bottom: 0;}
+
+body{
+  background: $backgroundColor;
+  position: relative;
+  @extend .transition03;
+  overflow-x: hidden;
+}
+
+
+.structureContent, header{
+  @extend .initWithFade;
+  animation-duration: 0.5s;
+}
+
+
+
+/**
+  PROJECT SPECIFIC
+ */
+
+
+$primaryToolbarHeight : 76px;
+$primaryMenuWidth : 226px;
+
+
+$backgroundColorPicture : darken(#f6f7f9,10%);
+
+$noteBackgroundColor : #fffece;
+$noteBorderColor : #fff792;
+$noteAccentColor : #ffc91d;
+
+
+
+@media all and (min-width: $col-lg){
+body{
+  .mobile{
+    display: none !important;
+  }
+}
+}

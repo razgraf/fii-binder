@@ -1,0 +1,23 @@
+do sum between ( common.price, support.price)
+\
+const duration 19
+do sum on multiplier_ceil(duration, common.frequency)
+\
+"Hello John ! How are you?
+
+I am writing to you regarding our last conversation. Upon your request, here is our estimate for the entire platform, including strategy, development and design. A rough estimate for the implementation of the requested features would sum up to around "
+do sum on features.price
+" USD. This should cover the entire suite of services such as "
+do enum on features.name
+" in their entirety."
+
+\
+
+"Over a period of "
+use const duration
+" months the operational cost would be "
+do sum on (do times between (common.price, multiplier_ceil(duration, common.frequency) ) )
+\
+"This should cover every common acquisition such as the "
+do enum_and on common.name
+" ."
