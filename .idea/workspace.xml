@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/css/structure.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="577" column="3" lean-forward="true" selection-start-line="577" selection-start-column="3" selection-end-line="577" selection-end-column="3" />
+              <caret line="577" column="3" selection-start-line="577" selection-start-column="3" selection-end-line="577" selection-end-column="3" />
               <folding>
                 <element signature="e#13269#16283#0" />
                 <element signature="e#16300#16333#0" />
@@ -165,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554239733645</updated>
-      <workItem from="1554239734803" duration="1013000" />
+      <workItem from="1554239734803" duration="1350000" />
     </task>
     <task id="LOCAL-00001" summary="Screenshot">
       <created>1554240860293</created>
@@ -178,11 +178,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1013000" />
+    <option name="totallyTimeSpent" value="1350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -244,7 +243,7 @@
     <entry file="file://$PROJECT_DIR$/css/structure.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="577" column="3" lean-forward="true" selection-start-line="577" selection-start-column="3" selection-end-line="577" selection-end-column="3" />
+          <caret line="577" column="3" selection-start-line="577" selection-start-column="3" selection-end-line="577" selection-end-column="3" />
           <folding>
             <element signature="e#13269#16283#0" />
             <element signature="e#16300#16333#0" />
