@@ -1,0 +1,2307 @@
+.gradient25Orange {
+  background: #fc6621;
+  background: linear-gradient(25deg, #fc6621, #f9ab23);
+  background: -webkit-linear-gradient(25deg, #fc6621, #f9ab23);
+  background: -moz-linear-gradient(25deg, #fc6621, #f9ab23);
+  background: -o-linear-gradient(25deg, #fc6621, #f9ab23); }
+
+.gradientOtherOrange {
+  background: #f9d423;
+  background: linear-gradient(25deg, #f9d423, #ff4e50);
+  background: -webkit-linear-gradient(25deg, #f9d423, #ff4e50);
+  background: -moz-linear-gradient(25deg, #f9d423, #ff4e50);
+  background: -o-linear-gradient(25deg, #f9d423, #ff4e50); }
+
+.gradientBlue {
+  background: #04befe;
+  background: linear-gradient(15deg, #4481eb, #04befe);
+  background: -webkit-linear-gradient(15deg, #4481eb, #04befe);
+  background: -moz-linear-gradient(15deg, #4481eb, #04befe);
+  background: -o-linear-gradient(15deg, #4481eb, #04befe); }
+
+.colorPrimary {
+  color: #f9163d !important; }
+
+.colorSecondary {
+  color: #ffd833 !important; }
+
+.backgroundPrimary {
+  background: #f9163d !important; }
+
+.backgroundSecondary {
+  background: #ffd833 !important; }
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.transition01 {
+  transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s; }
+
+.transition02, .button img, .buttonPrimary img, .buttonSecondary img, .buttonGray img, .buttonOutline img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions img, .buttonGradient img, .button i, .buttonPrimary i, .buttonSecondary i, .buttonGray i, .buttonOutline i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions i, .buttonGradient i, .button span, .buttonPrimary span, .buttonSecondary span, .buttonGray span, .buttonOutline span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions span, .buttonGradient span, .button, .buttonPrimary, .buttonSecondary, .buttonGray, .buttonOutline, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions, .buttonGradient, .buttonMini i, .buttonMiniPrimary i, .buttonMiniSecondary i, .buttonMiniGray i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a i, .buttonMiniOutline i, .upload .upload-action .upload-button i, .upload .upload-action .upload-button-remove i, .HELPERFilterInfoButton i, .binder-section-title #buttonRestore i, .binder-section-title #buttonSave i, .binder-section-title #buttonBind i, .buttonMiniGradient i, .buttonMini span, .buttonMiniPrimary span, .buttonMiniSecondary span, .buttonMiniGray span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a span, .buttonMiniOutline span, .upload .upload-action .upload-button span, .upload .upload-action .upload-button-remove span, .HELPERFilterInfoButton span, .binder-section-title #buttonRestore span, .binder-section-title #buttonSave span, .binder-section-title #buttonBind span, .buttonMiniGradient span, .buttonMini, .buttonMiniPrimary, .buttonMiniSecondary, .buttonMiniGray, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a, .buttonMiniOutline, .upload .upload-action .upload-button, .upload .upload-action .upload-button-remove, .HELPERFilterInfoButton, .binder-section-title #buttonRestore, .binder-section-title #buttonSave, .binder-section-title #buttonBind, .buttonMiniGradient, .field label, .input label, .select label, .field input:active + label, .input input:active + label, .select input:active + label, .field input:focus + label, .input input:focus + label, .select input:focus + label, .field textarea:active + label, .input textarea:active + label, .select textarea:active + label, .field textarea:focus + label, .input textarea:focus + label, .select textarea:focus + label, .input p, .input input:active ~ p, .input input:active + p, .input input:focus ~ p, .input input:focus + p, .input textarea:active ~ p, .input textarea:active + p, .input textarea:focus ~ p, .input textarea:focus + p, .upload label, .upload p, body .modal-dialog .modal-content .modal-header .close, body .modal-dialog .modal-content .modal-header .close span, body .modal-dialog .modal-content .modal-header .close:hover, body .modal-dialog .modal-content .modal-header .close:hover span, body .modal-dialog .modal-content .modal-footer .modalButton:hover, body .modal-dialog .modal-content .modal-footer .modalButtonCancel:hover, body .modal-dialog .modal-content .modal-footer .modalButtonDelete:hover, .loader i, body.primary .menu .menuContainerPositioning .menuContainer .menuLogo::before, body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem:hover:not(.selected), body.primary .structure header .toolbarContainer .toolbarTitle::before, body.primary .cover .cover-container .cover-header .cover-header-close, body.primary .cover-action .cover-container .cover-header .cover-header-close, body.primary .cover .cover-container .cover-header .cover-header-close:hover, body.primary .cover .cover-container .cover-header .cover-header-close:active, body.primary .cover .cover-container .cover-header .cover-header-close:focus, body.primary .cover-action .cover-container .cover-header .cover-header-close:hover, body.primary .cover-action .cover-container .cover-header .cover-header-close:active, body.primary .cover-action .cover-container .cover-header .cover-header-close:focus, body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-header .toggle, body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function.show .cover-content-function-header .toggle {
+  transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s; }
+
+.transition03, body, .button:hover, .buttonPrimary:hover, .buttonSecondary:hover, .buttonGray:hover, .buttonOutline:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover, .buttonGradient:hover, .button:active, .buttonPrimary:active, .buttonSecondary:active, .buttonGray:active, .buttonOutline:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active, .buttonGradient:active, .button:focus, .buttonPrimary:focus, .buttonSecondary:focus, .buttonGray:focus, .buttonOutline:focus, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus, .buttonGradient:focus, .button:hover i, .buttonPrimary:hover i, .buttonSecondary:hover i, .buttonGray:hover i, .buttonOutline:hover i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover i, .buttonGradient:hover i, .button:hover span, .buttonPrimary:hover span, .buttonSecondary:hover span, .buttonGray:hover span, .buttonOutline:hover span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover span, .buttonGradient:hover span, .button:active i, .buttonPrimary:active i, .buttonSecondary:active i, .buttonGray:active i, .buttonOutline:active i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active i, .buttonGradient:active i, .button:active span, .buttonPrimary:active span, .buttonSecondary:active span, .buttonGray:active span, .buttonOutline:active span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active span, .buttonGradient:active span, .button:focus i, .buttonPrimary:focus i, .buttonSecondary:focus i, .buttonGray:focus i, .buttonOutline:focus i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus i, .buttonGradient:focus i, .button:focus span, .buttonPrimary:focus span, .buttonSecondary:focus span, .buttonGray:focus span, .buttonOutline:focus span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus span, .buttonGradient:focus span, .button:hover img, .buttonPrimary:hover img, .buttonSecondary:hover img, .buttonGray:hover img, .buttonOutline:hover img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover img, .buttonGradient:hover img, .button:active img, .buttonPrimary:active img, .buttonSecondary:active img, .buttonGray:active img, .buttonOutline:active img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active img, .buttonGradient:active img, .button:focus img, .buttonPrimary:focus img, .buttonSecondary:focus img, .buttonGray:focus img, .buttonOutline:focus img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus img, .buttonGradient:focus img, .buttonMini:hover, .buttonMiniPrimary:hover, .buttonMiniSecondary:hover, .buttonMiniGray:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:hover, .buttonMiniOutline:hover, .upload .upload-action .upload-button:hover, .upload .upload-action .upload-button-remove:hover, .HELPERFilterInfoButton:hover, .binder-section-title #buttonRestore:hover, .binder-section-title #buttonSave:hover, .binder-section-title #buttonBind:hover, .buttonMiniGradient:hover, .buttonMini:active, .buttonMiniPrimary:active, .buttonMiniSecondary:active, .buttonMiniGray:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:active, .buttonMiniOutline:active, .upload .upload-action .upload-button:active, .upload .upload-action .upload-button-remove:active, .HELPERFilterInfoButton:active, .binder-section-title #buttonRestore:active, .binder-section-title #buttonSave:active, .binder-section-title #buttonBind:active, .buttonMiniGradient:active, .buttonMini:focus, .buttonMiniPrimary:focus, .buttonMiniSecondary:focus, .buttonMiniGray:focus, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:focus, .buttonMiniOutline:focus, .upload .upload-action .upload-button:focus, .upload .upload-action .upload-button-remove:focus, .HELPERFilterInfoButton:focus, .binder-section-title #buttonRestore:focus, .binder-section-title #buttonSave:focus, .binder-section-title #buttonBind:focus, .buttonMiniGradient:focus, .buttonMini:hover i, .buttonMiniPrimary:hover i, .buttonMiniSecondary:hover i, .buttonMiniGray:hover i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:hover i, .buttonMiniOutline:hover i, .upload .upload-action .upload-button:hover i, .upload .upload-action .upload-button-remove:hover i, .HELPERFilterInfoButton:hover i, .binder-section-title #buttonRestore:hover i, .binder-section-title #buttonSave:hover i, .binder-section-title #buttonBind:hover i, .buttonMiniGradient:hover i, .buttonMini:hover span, .buttonMiniPrimary:hover span, .buttonMiniSecondary:hover span, .buttonMiniGray:hover span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:hover span, .buttonMiniOutline:hover span, .upload .upload-action .upload-button:hover span, .upload .upload-action .upload-button-remove:hover span, .HELPERFilterInfoButton:hover span, .binder-section-title #buttonRestore:hover span, .binder-section-title #buttonSave:hover span, .binder-section-title #buttonBind:hover span, .buttonMiniGradient:hover span, .buttonMini:active i, .buttonMiniPrimary:active i, .buttonMiniSecondary:active i, .buttonMiniGray:active i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:active i, .buttonMiniOutline:active i, .upload .upload-action .upload-button:active i, .upload .upload-action .upload-button-remove:active i, .HELPERFilterInfoButton:active i, .binder-section-title #buttonRestore:active i, .binder-section-title #buttonSave:active i, .binder-section-title #buttonBind:active i, .buttonMiniGradient:active i, .buttonMini:active span, .buttonMiniPrimary:active span, .buttonMiniSecondary:active span, .buttonMiniGray:active span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:active span, .buttonMiniOutline:active span, .upload .upload-action .upload-button:active span, .upload .upload-action .upload-button-remove:active span, .HELPERFilterInfoButton:active span, .binder-section-title #buttonRestore:active span, .binder-section-title #buttonSave:active span, .binder-section-title #buttonBind:active span, .buttonMiniGradient:active span, .buttonMini:focus i, .buttonMiniPrimary:focus i, .buttonMiniSecondary:focus i, .buttonMiniGray:focus i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:focus i, .buttonMiniOutline:focus i, .upload .upload-action .upload-button:focus i, .upload .upload-action .upload-button-remove:focus i, .HELPERFilterInfoButton:focus i, .binder-section-title #buttonRestore:focus i, .binder-section-title #buttonSave:focus i, .binder-section-title #buttonBind:focus i, .buttonMiniGradient:focus i, .buttonMini:focus span, .buttonMiniPrimary:focus span, .buttonMiniSecondary:focus span, .buttonMiniGray:focus span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:focus span, .buttonMiniOutline:focus span, .upload .upload-action .upload-button:focus span, .upload .upload-action .upload-button-remove:focus span, .HELPERFilterInfoButton:focus span, .binder-section-title #buttonRestore:focus span, .binder-section-title #buttonSave:focus span, .binder-section-title #buttonBind:focus span, .buttonMiniGradient:focus span, .connSuiteHelperButton, .connSuiteHelperButton span, .connSuiteHelperButton:hover span, .connSuiteHelperButton:hover, .connSuiteHelperButton:active, body.primary .menu, body.primary .menu .menuContainerPositioning .menuContainer .menuLogo:active::before, body.primary .menu .menuContainerPositioning .menuContainer .menuLogo:focus::before, body.primary .menu .menuContainerPositioning .menuContainer .menuLogo:hover::before, body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem, body.primary .structure header .toolbarContainer .toolbarTitle:active::before, body.primary .structure header .toolbarContainer .toolbarTitle:focus::before, body.primary .structure header .toolbarContainer .toolbarTitle:hover::before, body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-body, body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function.show .cover-content-function-body, body.primary.menu-visible .menu {
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s; }
+
+.transition04 {
+  transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s; }
+
+.transition05, body.primary .cover, body.primary .cover-action {
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s; }
+
+.disableClick, .dummy {
+  filter: grayscale(50%);
+  opacity: 0.5;
+  pointer-events: none; }
+
+.initWithFade, .structureContent, header, .vanLoadingToast span {
+  animation-name: fadein;
+  animation-duration: 0.3s; }
+
+.exitWithFade {
+  animation-name: fadeout;
+  animation-duration: 0.3s; }
+
+* {
+  font-family: "Open Sans", "Open Sans", sans-serif; }
+
+p, h1, h2, h3, h4, h5 {
+  margin-bottom: 0; }
+
+body {
+  background: #f6f7f9;
+  position: relative;
+  overflow-x: hidden; }
+
+.structureContent, header {
+  animation-duration: 0.5s; }
+
+/**
+  PROJECT SPECIFIC
+ */
+@media all and (min-width: 992px) {
+  body .mobile {
+    display: none !important; } }
+/**
+------------------
+
+DEFAULT BUTTONS
+
+------------------
+ */
+.button, .buttonPrimary, .buttonSecondary, .buttonGray, .buttonOutline, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions, .buttonGradient {
+  user-select: none;
+  min-height: 46px;
+  padding: 5px 20px;
+  min-width: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  -webkit-appearance: none !important;
+  border: none;
+  outline: none; }
+  .button .loader i, .buttonPrimary .loader i, .buttonSecondary .loader i, .buttonGray .loader i, .buttonOutline .loader i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable .loader i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions .loader i, .buttonGradient .loader i {
+    color: #ffffff !important; }
+  .button img, .buttonPrimary img, .buttonSecondary img, .buttonGray img, .buttonOutline img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions img, .buttonGradient img {
+    margin-right: 6px;
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    filter: brightness(1) invert(0);
+    -webkit-backface-visibility: hidden; }
+  .button i, .buttonPrimary i, .buttonSecondary i, .buttonGray i, .buttonOutline i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions i, .buttonGradient i {
+    color: #ffffff;
+    font-size: 14pt;
+    margin-right: 6px; }
+  .button span, .buttonPrimary span, .buttonSecondary span, .buttonGray span, .buttonOutline span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions span, .buttonGradient span {
+    color: #ffffff;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-size: 10pt;
+    letter-spacing: 0.5pt;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-underline: none; }
+  .button:hover, .buttonPrimary:hover, .buttonSecondary:hover, .buttonGray:hover, .buttonOutline:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover, .buttonGradient:hover, .button:active, .buttonPrimary:active, .buttonSecondary:active, .buttonGray:active, .buttonOutline:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active, .buttonGradient:active, .button:focus, .buttonPrimary:focus, .buttonSecondary:focus, .buttonGray:focus, .buttonOutline:focus, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus, .buttonGradient:focus {
+    transform: translate(0, -3px);
+    outline: none; }
+
+.buttonPrimary {
+  background: #f9163d; }
+  .buttonPrimary:hover, .buttonPrimary:active, .buttonPrimary:focus {
+    background: #fc7990; }
+
+.buttonSecondary {
+  background: #ffd833; }
+  .buttonSecondary:hover, .buttonSecondary:active, .buttonSecondary:focus {
+    background: #ffdd4d; }
+
+.buttonGray {
+  background: #bbbbbb; }
+  .buttonGray:hover, .buttonGray:active, .buttonGray:focus {
+    background: #cccccc; }
+
+.buttonOutline, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions {
+  background: transparent;
+  border: 1px solid #000; }
+  .buttonOutline .loader i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable .loader i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions .loader i {
+    color: #000 !important; }
+  .buttonOutline i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions i {
+    color: #000; }
+  .buttonOutline span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions span {
+    color: #000; }
+  .buttonOutline:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover, .buttonOutline:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active, .buttonOutline:focus, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus {
+    background: rgba(0, 0, 0, 0.04);
+    transform: none; }
+
+/**
+------------------
+
+MINI BUTTONS
+
+------------------
+ */
+.buttonMini, .buttonMiniPrimary, .buttonMiniSecondary, .buttonMiniGray, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a, .buttonMiniOutline, .upload .upload-action .upload-button, .upload .upload-action .upload-button-remove, .HELPERFilterInfoButton, .binder-section-title #buttonRestore, .binder-section-title #buttonSave, .binder-section-title #buttonBind, .buttonMiniGradient {
+  user-select: none;
+  min-height: 36px;
+  padding: 4px 12px;
+  min-width: 60px;
+  border-radius: 3px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  cursor: pointer !important; }
+  .buttonMini .loader i, .buttonMiniPrimary .loader i, .buttonMiniSecondary .loader i, .buttonMiniGray .loader i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a .loader i, .buttonMiniOutline .loader i, .upload .upload-action .upload-button .loader i, .upload .upload-action .upload-button-remove .loader i, .HELPERFilterInfoButton .loader i, .binder-section-title #buttonRestore .loader i, .binder-section-title #buttonSave .loader i, .binder-section-title #buttonBind .loader i, .buttonMiniGradient .loader i {
+    color: #ffffff !important; }
+  .buttonMini i, .buttonMiniPrimary i, .buttonMiniSecondary i, .buttonMiniGray i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a i, .buttonMiniOutline i, .upload .upload-action .upload-button i, .upload .upload-action .upload-button-remove i, .HELPERFilterInfoButton i, .binder-section-title #buttonRestore i, .binder-section-title #buttonSave i, .binder-section-title #buttonBind i, .buttonMiniGradient i {
+    color: #ffffff;
+    font-size: 11pt;
+    margin-right: 4px; }
+  .buttonMini span, .buttonMiniPrimary span, .buttonMiniSecondary span, .buttonMiniGray span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a span, .buttonMiniOutline span, .upload .upload-action .upload-button span, .upload .upload-action .upload-button-remove span, .HELPERFilterInfoButton span, .binder-section-title #buttonRestore span, .binder-section-title #buttonSave span, .binder-section-title #buttonBind span, .buttonMiniGradient span {
+    color: #ffffff;
+    font-family: "Montserrat", "Open Sans", sans-serif !important;
+    font-size: 9pt;
+    font-weight: 500;
+    text-decoration: none;
+    text-underline: none;
+    text-transform: capitalize; }
+
+.buttonMiniPrimary {
+  background: #f9163d !important; }
+  .buttonMiniPrimary:hover, .buttonMiniPrimary:active, .buttonMiniPrimary:focus {
+    background: #fc7990 !important; }
+
+.buttonMiniSecondary {
+  background: #ffd833 !important; }
+  .buttonMiniSecondary:hover, .buttonMiniSecondary:active, .buttonMiniSecondary:focus {
+    background: #ffdd4d !important; }
+
+.buttonMiniGray, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a {
+  background: #bbbbbb !important; }
+  .buttonMiniGray:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:hover, .buttonMiniGray:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:active, .buttonMiniGray:focus, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a:focus {
+    background: #cccccc !important; }
+
+.buttonMiniOutline, .upload .upload-action .upload-button, .upload .upload-action .upload-button-remove, .HELPERFilterInfoButton, .binder-section-title #buttonRestore, .binder-section-title #buttonSave, .binder-section-title #buttonBind {
+  background: transparent;
+  border: 1px solid #000; }
+  .buttonMiniOutline .loader i, .upload .upload-action .upload-button .loader i, .upload .upload-action .upload-button-remove .loader i, .HELPERFilterInfoButton .loader i, .binder-section-title #buttonRestore .loader i, .binder-section-title #buttonSave .loader i, .binder-section-title #buttonBind .loader i {
+    color: #000 !important; }
+  .buttonMiniOutline i, .upload .upload-action .upload-button i, .upload .upload-action .upload-button-remove i, .HELPERFilterInfoButton i, .binder-section-title #buttonRestore i, .binder-section-title #buttonSave i, .binder-section-title #buttonBind i {
+    color: #000; }
+  .buttonMiniOutline span, .upload .upload-action .upload-button span, .upload .upload-action .upload-button-remove span, .HELPERFilterInfoButton span, .binder-section-title #buttonRestore span, .binder-section-title #buttonSave span, .binder-section-title #buttonBind span {
+    color: #000; }
+  .buttonMiniOutline:hover, .upload .upload-action .upload-button:hover, .upload .upload-action .upload-button-remove:hover, .HELPERFilterInfoButton:hover, .binder-section-title #buttonRestore:hover, .binder-section-title #buttonSave:hover, .binder-section-title #buttonBind:hover, .buttonMiniOutline:active, .upload .upload-action .upload-button:active, .upload .upload-action .upload-button-remove:active, .HELPERFilterInfoButton:active, .binder-section-title #buttonRestore:active, .binder-section-title #buttonSave:active, .binder-section-title #buttonBind:active, .buttonMiniOutline:focus, .upload .upload-action .upload-button:focus, .upload .upload-action .upload-button-remove:focus, .HELPERFilterInfoButton:focus, .binder-section-title #buttonRestore:focus, .binder-section-title #buttonSave:focus, .binder-section-title #buttonBind:focus {
+    background: rgba(0, 0, 0, 0.04);
+    transform: none; }
+
+/**
+------------------
+
+STYLISH BUTTONS
+
+------------------
+ */
+.buttonGradient {
+  background: #fff !important;
+  background: #fc7990;
+  background: linear-gradient(45deg, #f9163d 30%, #ffd833);
+  background: -webkit-linear-gradient(45deg, #f9163d 30%, #ffd833);
+  background: -moz-linear-gradient(45deg, #f9163d 30%, #ffd833);
+  background: -o-linear-gradient(45deg, #f9163d 30%, #ffd833);
+  background-size: 200%; }
+  .buttonGradient i {
+    color: #fff !important; }
+  .buttonGradient span {
+    color: #fff !important; }
+  .buttonGradient:hover, .buttonGradient:active, .buttonGradient:focus {
+    background-position-x: 100%; }
+
+.buttonMiniGradient {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  background: #fff;
+  background: #fc7990;
+  background: linear-gradient(45deg, #f9163d 30%, #ffd833);
+  background: -webkit-linear-gradient(45deg, #f9163d 30%, #ffd833);
+  background: -moz-linear-gradient(45deg, #f9163d 30%, #ffd833);
+  background: -o-linear-gradient(45deg, #f9163d 30%, #ffd833);
+  background-size: 200%; }
+  .buttonMiniGradient .loader i {
+    color: #fff !important; }
+  .buttonMiniGradient i {
+    color: #fff !important; }
+  .buttonMiniGradient span {
+    color: #fff !important;
+    font-family: "Montserrat", "Open Sans", sans-serif; }
+  .buttonMiniGradient:hover, .buttonMiniGradient:active, .buttonMiniGradient:focus {
+    background: white; }
+  .buttonMiniGradient:hover, .buttonMiniGradient:active, .buttonMiniGradient:focus {
+    background-position-x: 100%; }
+
+@media all and (max-width: 992px) {
+  .button, .buttonPrimary, .buttonSecondary, .buttonGray, .buttonOutline, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions, .buttonGradient {
+    min-height: 40px;
+    padding: 5px 15px;
+    min-width: 80px; }
+    .button i, .buttonPrimary i, .buttonSecondary i, .buttonGray i, .buttonOutline i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions i, .buttonGradient i {
+      color: #ffffff;
+      font-size: 12pt;
+      margin-right: 5px; }
+    .button span, .buttonPrimary span, .buttonSecondary span, .buttonGray span, .buttonOutline span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions span, .buttonGradient span {
+      color: #ffffff;
+      font-family: "Montserrat", "Open Sans", sans-serif;
+      font-size: 9pt; }
+
+  .buttonMini, .buttonMiniPrimary, .buttonMiniSecondary, .buttonMiniGray, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a, .buttonMiniOutline, .upload .upload-action .upload-button, .upload .upload-action .upload-button-remove, .HELPERFilterInfoButton, .binder-section-title #buttonRestore, .binder-section-title #buttonSave, .binder-section-title #buttonBind, .buttonMiniGradient {
+    min-height: 34px;
+    padding: 4px 9px;
+    min-width: 50px; }
+    .buttonMini i, .buttonMiniPrimary i, .buttonMiniSecondary i, .buttonMiniGray i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a i, .buttonMiniOutline i, .upload .upload-action .upload-button i, .upload .upload-action .upload-button-remove i, .HELPERFilterInfoButton i, .binder-section-title #buttonRestore i, .binder-section-title #buttonSave i, .binder-section-title #buttonBind i, .buttonMiniGradient i {
+      color: #ffffff !important;
+      font-size: 12pt !important;
+      margin-right: 3px !important; }
+    .buttonMini span, .buttonMiniPrimary span, .buttonMiniSecondary span, .buttonMiniGray span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons a span, .buttonMiniOutline span, .upload .upload-action .upload-button span, .upload .upload-action .upload-button-remove span, .HELPERFilterInfoButton span, .binder-section-title #buttonRestore span, .binder-section-title #buttonSave span, .binder-section-title #buttonBind span, .buttonMiniGradient span {
+      font-size: 8pt; } }
+.dummy {
+  opacity: 0.35 !important;
+  user-select: none !important;
+  animation-name: none !important;
+  transition: none !important;
+  animation: none !important;
+  animation-duration: 0s !important;
+  color: #fff; }
+
+input.default {
+  color: #000;
+  font-size: 12pt;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  outline: none; }
+
+input.default::-webkit-input-placeholder {
+  color: #ccc; }
+
+input.default::-moz-placeholder {
+  color: #ccc; }
+
+input.default:-ms-input-placeholder {
+  color: #ccc; }
+
+.field, .input, .select {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10px; }
+  .field label, .input label, .select label {
+    margin-bottom: 5px;
+    color: #a2a7a8;
+    font-size: 9pt;
+    order: 1;
+    font-weight: 600;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    text-transform: uppercase; }
+  .field input, .input input, .select input, .field textarea, .input textarea, .select textarea {
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #E2E8EA;
+    order: 2;
+    height: 46px;
+    color: #000000;
+    font-size: 12pt;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    outline: none; }
+    .field input::-webkit-input-placeholder, .input input::-webkit-input-placeholder, .select input::-webkit-input-placeholder, .field textarea::-webkit-input-placeholder, .input textarea::-webkit-input-placeholder, .select textarea::-webkit-input-placeholder {
+      color: #a2a7a8; }
+    .field input::-moz-placeholder, .input input::-moz-placeholder, .select input::-moz-placeholder, .field textarea::-moz-placeholder, .input textarea::-moz-placeholder, .select textarea::-moz-placeholder {
+      color: #a2a7a8; }
+    .field input:-ms-input-placeholder, .input input:-ms-input-placeholder, .select input:-ms-input-placeholder, .field textarea:-ms-input-placeholder, .input textarea:-ms-input-placeholder, .select textarea:-ms-input-placeholder {
+      color: #a2a7a8; }
+  .field textarea, .input textarea, .select textarea {
+    resize: none;
+    height: 150px; }
+  .field input:-webkit-autofill, .input input:-webkit-autofill, .select input:-webkit-autofill, .field textarea:-webkit-autofill, .input textarea:-webkit-autofill, .select textarea:-webkit-autofill {
+    -webkit-text-fill-color: #000 !important;
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    background-color: transparent !important; }
+  .field input:active + label, .input input:active + label, .select input:active + label, .field input:focus + label, .input input:focus + label, .select input:focus + label, .field textarea:active + label, .input textarea:active + label, .select textarea:active + label, .field textarea:focus + label, .input textarea:focus + label, .select textarea:focus + label {
+    color: #d8dfe0; }
+  .field input.warn, .input input.warn, .select input.warn, .field textarea.warn, .input textarea.warn, .select textarea.warn {
+    border-color: #F44336;
+    color: #F44336; }
+    .field input.warn ~ p, .input input.warn ~ p, .select input.warn ~ p, .field input.warn ~ label, .input input.warn ~ label, .select input.warn ~ label, .field textarea.warn ~ p, .input textarea.warn ~ p, .select textarea.warn ~ p, .field textarea.warn ~ label, .input textarea.warn ~ label, .select textarea.warn ~ label {
+      color: #F44336; }
+    .field input.warn::-webkit-input-placeholder, .input input.warn::-webkit-input-placeholder, .select input.warn::-webkit-input-placeholder, .field textarea.warn::-webkit-input-placeholder, .input textarea.warn::-webkit-input-placeholder, .select textarea.warn::-webkit-input-placeholder {
+      color: #F44336;
+      opacity: 0.5; }
+    .field input.warn::-moz-placeholder, .input input.warn::-moz-placeholder, .select input.warn::-moz-placeholder, .field textarea.warn::-moz-placeholder, .input textarea.warn::-moz-placeholder, .select textarea.warn::-moz-placeholder {
+      color: #F44336;
+      opacity: 0.5; }
+    .field input.warn:-ms-input-placeholder, .input input.warn:-ms-input-placeholder, .select input.warn:-ms-input-placeholder, .field textarea.warn:-ms-input-placeholder, .input textarea.warn:-ms-input-placeholder, .select textarea.warn:-ms-input-placeholder {
+      color: #F44336;
+      opacity: 0.5; }
+
+.customLabel {
+  width: 100%;
+  margin-bottom: 15px;
+  color: #a2a7a8;
+  font-size: 9pt;
+  font-weight: 600;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  text-transform: uppercase; }
+
+/**
+Checkbox, Radio, Input, Select, ImageUpload
+ */
+.checkbox {
+  position: relative;
+  display: flex;
+  min-height: 28px;
+  align-items: center; }
+  .checkbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border: 1px solid #aaaaaa;
+    border-radius: 2px; }
+  .checkbox label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 11.2px;
+    height: 6.2px;
+    background: transparent;
+    top: 8px;
+    left: 7px;
+    border: 2px solid #ffd833;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg); }
+  .checkbox label:hover {
+    background: #f9f9f9;
+    border: 1px solid #888888; }
+  .checkbox label:hover ~ p {
+    color: #777; }
+  .checkbox input {
+    height: 28px;
+    width: 28px;
+    opacity: 0; }
+  .checkbox input[type=checkbox]:checked + label:after {
+    opacity: 1; }
+  .checkbox input[type=checkbox]:checked ~ p {
+    color: #ffd833; }
+  .checkbox p {
+    position: relative;
+    font-size: 10pt;
+    font-weight: 500;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    color: #888;
+    margin-left: 7px;
+    margin-right: 2px; }
+
+.radio {
+  position: relative;
+  display: flex;
+  min-height: 28px;
+  align-items: center; }
+  .radio label {
+    cursor: pointer;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border: 1px solid #aaaaaa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .radio label:after {
+    opacity: 0;
+    content: '';
+    position: relative;
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    border-radius: 50%;
+    background: #ffd833; }
+  .radio label:hover {
+    background: #f9f9f9;
+    border: 1px solid #888888; }
+  .radio label:hover ~ p {
+    color: #777; }
+  .radio input {
+    height: 28px;
+    width: 28px;
+    opacity: 0; }
+  .radio input[type=radio]:checked + label:after {
+    opacity: 1; }
+  .radio input[type=radio]:checked ~ p {
+    color: #ffd833; }
+  .radio p {
+    position: relative;
+    font-size: 10pt;
+    font-weight: 500;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    color: #888;
+    margin-left: 7px;
+    margin-right: 2px; }
+
+.input label {
+  display: none; }
+.input p {
+  margin-bottom: 5px;
+  color: #a2a7a8;
+  font-size: 9pt;
+  order: 1;
+  font-weight: 600;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  text-transform: uppercase; }
+.input input:active ~ p, .input input:active + p, .input input:focus ~ p, .input input:focus + p, .input textarea:active ~ p, .input textarea:active + p, .input textarea:focus ~ p, .input textarea:focus + p {
+  color: #BEC5C6 !important; }
+.input.force-active input, .input.force-active textarea {
+  border-color: #ffd833;
+  color: #ffd833 !important;
+  background: #f5f5f5; }
+.input.force-active p {
+  color: #ffd833 !important; }
+
+.select select {
+  border-radius: 5px;
+  background: #ffffff;
+  border: 1px solid #E2E8EA;
+  order: 2;
+  height: 46px;
+  color: #000000;
+  font-size: 12pt;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  outline: none;
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding: 5px 20px;
+  position: relative; }
+.select datalist select {
+  margin-top: 76px !important;
+  height: auto !important;
+  background: #ffffff !important;
+  max-height: 100px;
+  overflow-y: scroll;
+  border-radius: 6px; }
+.select label {
+  display: none; }
+.select > p {
+  margin-bottom: 5px;
+  color: #a2a7a8;
+  font-size: 9pt;
+  font-weight: 600;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  text-transform: uppercase; }
+.select .input {
+  padding-top: 10px;
+  order: 2; }
+
+.group-checkbox, .group-radio {
+  display: flex;
+  flex-direction: column; }
+  .group-checkbox > p, .group-radio > p {
+    margin-bottom: 5px;
+    color: #a2a7a8;
+    font-size: 9pt;
+    font-weight: 600;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    text-transform: uppercase; }
+  .group-checkbox .container, .group-radio .container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-column-gap: 10px !important;
+    grid-row-gap: 10px !important;
+    padding: 5px !important;
+    border: 1px solid #E2E8EA;
+    border-radius: 4px;
+    min-height: 46px !important;
+    align-items: center; }
+    .group-checkbox .container .checkbox, .group-checkbox .container .radio, .group-radio .container .checkbox, .group-radio .container .radio {
+      grid-column: span 1; }
+
+.upload {
+  width: auto;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+  justify-content: flex-start; }
+  .upload label, .upload p {
+    margin-bottom: 5px;
+    color: #a2a7a8;
+    font-size: 9pt;
+    order: 1;
+    font-weight: 600;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    text-transform: uppercase; }
+  .upload .upload-container {
+    order: 2;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #E2E8EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column; }
+    .upload .upload-container div.picture {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: #d7dce5; }
+      .upload .upload-container div.picture input {
+        display: none; }
+      .upload .upload-container div.picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+  .upload .upload-action {
+    width: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    padding-top: 14px;
+    order: 3; }
+    .upload .upload-action .upload-button {
+      grid-column: span 1;
+      background: transparent;
+      border: 1px solid #f9163d !important; }
+      .upload .upload-action .upload-button .loader i {
+        color: #f9163d !important; }
+      .upload .upload-action .upload-button i {
+        color: #f9163d !important; }
+      .upload .upload-action .upload-button span {
+        color: #f9163d !important; }
+      .upload .upload-action .upload-button:hover, .upload .upload-action .upload-button:active, .upload .upload-action .upload-button:focus {
+        background: #f9163d; }
+        .upload .upload-action .upload-button:hover i, .upload .upload-action .upload-button:hover span, .upload .upload-action .upload-button:hover .loader i, .upload .upload-action .upload-button:active i, .upload .upload-action .upload-button:active span, .upload .upload-action .upload-button:active .loader i, .upload .upload-action .upload-button:focus i, .upload .upload-action .upload-button:focus span, .upload .upload-action .upload-button:focus .loader i {
+          color: #fff !important; }
+    .upload .upload-action .upload-button-remove {
+      grid-column: span 1;
+      background: transparent;
+      border: 1px solid #F44336 !important; }
+      .upload .upload-action .upload-button-remove .loader i {
+        color: #F44336 !important; }
+      .upload .upload-action .upload-button-remove i {
+        color: #F44336 !important; }
+      .upload .upload-action .upload-button-remove span {
+        color: #F44336 !important; }
+      .upload .upload-action .upload-button-remove:hover, .upload .upload-action .upload-button-remove:active, .upload .upload-action .upload-button-remove:focus {
+        background: #F44336; }
+        .upload .upload-action .upload-button-remove:hover i, .upload .upload-action .upload-button-remove:hover span, .upload .upload-action .upload-button-remove:hover .loader i, .upload .upload-action .upload-button-remove:active i, .upload .upload-action .upload-button-remove:active span, .upload .upload-action .upload-button-remove:active .loader i, .upload .upload-action .upload-button-remove:focus i, .upload .upload-action .upload-button-remove:focus span, .upload .upload-action .upload-button-remove:focus .loader i {
+          color: #fff !important; }
+  .upload .upload-container.warn {
+    border-color: #F44336;
+    color: #F44336; }
+    .upload .upload-container.warn ~ p, .upload .upload-container.warn label {
+      color: #F44336; }
+  .upload input.warn::-webkit-input-placeholder {
+    color: #F44336; }
+  .upload input.warn::-moz-placeholder {
+    color: #F44336; }
+  .upload input.warn:-ms-input-placeholder {
+    color: #F44336; }
+
+.cardView {
+  width: 100%;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05), 0 1px 5px 0 rgba(0, 0, 0, 0.05);
+  min-height: 20px;
+  margin-bottom: 20px; }
+  .cardView .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; }
+
+@media all and (max-width: 992px) {
+  .cardView .content {
+    padding: 10px; } }
+.containerBorder {
+  min-height: 36px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #eeeeee;
+  min-width: 100px; }
+
+.contentLabel {
+  font-size: 10pt;
+  color: #a3a5a6;
+  display: inline-flex;
+  font-weight: 600;
+  font-family: "Montserrat", "Open Sans", sans-serif; }
+
+.contentLabel::after {
+  content: "";
+  padding-left: 1px;
+  padding-right: 5px; }
+
+.contentContainer {
+  display: flex;
+  align-items: center;
+  margin: 5px 10px 5px 0; }
+  .contentContainer i {
+    font-size: 12pt;
+    color: #a3a5a6;
+    margin-right: 5px; }
+  .contentContainer span:not(.contentLabel) {
+    color: #000000;
+    font-weight: 400;
+    font-size: 10pt; }
+
+body .mobileOnly {
+  display: none !important; }
+
+@media all and (max-width: 992px) {
+  body .mobileOnly {
+    display: flex !important; } }
+.customScroll::-webkit-scrollbar-track {
+  border: 1px solid #eeeeee;
+  border-radius: 10px; }
+
+.customScroll::-webkit-scrollbar {
+  width: 10px; }
+
+.customScroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #dddddd; }
+
+.defaultContainer {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+@media all and (max-width: 992px) {
+  .defaultContainer {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px; } }
+@keyframes placeholder-animation {
+  from {
+    opacity: 0.3; }
+  to {
+    opacity: 1; } }
+html body .placeholder-image, html body .placeholder-image-mini {
+  background: #f2f2f2 url('data:image/svg+xml;utf8,<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g fill="none" fill-rule="evenodd" stroke-width="2"><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="0s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="0s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="-0.9s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="-0.9s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle></g></svg>') no-repeat center;
+  background-size: 100px 100px !important; }
+  html body .placeholder-image img[src=""], html body .placeholder-image-mini img[src=""], html body .placeholder-image img[src="#"], html body .placeholder-image-mini img[src="#"] {
+    display: none !important; }
+html body .placeholder-image-mini {
+  background-size: 40px 40px !important; }
+
+body a, body p, body div {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important; }
+
+.mdl-button {
+  font-size: 12px;
+  height: auto;
+  line-height: 2;
+  padding: 3px 10px; }
+
+.seriousLink {
+  text-decoration: none !important;
+  color: inherit !important;
+  cursor: pointer; }
+
+body .background {
+  overflow-x: hidden !important; }
+
+.divider {
+  width: 100%;
+  margin-top: 5px;
+  height: 1px;
+  background: #eeeeee; }
+
+.doNotSelect {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none; }
+
+.HELPERContentContainer {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; }
+
+.HELPERFilterInfoContainer {
+  color: #157EFB;
+  width: 100%;
+  font-size: 10pt;
+  margin-bottom: 20px;
+  font-weight: 300;
+  padding: 15px;
+  height: inherit;
+  display: flex;
+  text-align: justify;
+  justify-content: flex-start;
+  align-items: center;
+  background: transparent;
+  border-radius: 6px;
+  border: 1px dashed #157EFB; }
+  .HELPERFilterInfoContainer .HELPERFilterInfoContent {
+    flex: 1; }
+
+.HELPERFilterInfoButton {
+  background: transparent;
+  border: 1px solid #157EFB !important; }
+  .HELPERFilterInfoButton .loader i {
+    color: #157EFB !important; }
+  .HELPERFilterInfoButton i {
+    color: #157EFB !important; }
+  .HELPERFilterInfoButton span {
+    color: #157EFB !important; }
+  .HELPERFilterInfoButton:hover, .HELPERFilterInfoButton:active, .HELPERFilterInfoButton:focus {
+    background: #157EFB; }
+    .HELPERFilterInfoButton:hover i, .HELPERFilterInfoButton:hover span, .HELPERFilterInfoButton:hover .loader i, .HELPERFilterInfoButton:active i, .HELPERFilterInfoButton:active span, .HELPERFilterInfoButton:active .loader i, .HELPERFilterInfoButton:focus i, .HELPERFilterInfoButton:focus span, .HELPERFilterInfoButton:focus .loader i {
+      color: #fff !important; }
+
+@media all and (min-width: 992px) {
+  .HELPERFilterInfoContainer .HELPERFilterInfoContent {
+    padding-right: 20px; } }
+.connSuiteHelperContainer {
+  max-width: 1300px;
+  text-align: center;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  height: inherit;
+  display: flex;
+  background: #EBF9FF;
+  border-radius: 5px;
+  border: 1px solid #ACE6FD;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.connSuiteHelperContent {
+  flex: 1;
+  text-align: left;
+  color: #ffd833;
+  font-size: 1em; }
+
+.connSuiteHelperButton {
+  height: 46px;
+  margin-left: 30px;
+  border-radius: 23px;
+  background: transparent;
+  border: 1px solid #ffd833;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  padding: 0 20px;
+  cursor: pointer; }
+
+.connSuiteHelperButton span {
+  color: #ffd833; }
+
+.connSuiteHelperButton:hover span {
+  color: #ffffff; }
+
+.connSuiteHelperButton:hover, .connSuiteHelperButton:active {
+  background: #ffd833;
+  color: #ffffff; }
+
+@media all and (max-width: 992px) {
+  .connSuiteHelperContainer {
+    padding-right: 10px; }
+
+  .connSuiteHelperButton {
+    margin-top: 20px;
+    margin-left: 0; }
+
+  .connSuiteHelperContainer {
+    flex-direction: column; }
+
+  .connSuiteHelperContent {
+    text-align: center;
+    width: 100%; } }
+.labelThis {
+  cursor: pointer; }
+
+.labelThis div {
+  position: absolute;
+  height: inherit;
+  display: flex;
+  align-items: center; }
+
+.labelThis div span:first-child {
+  display: none;
+  font-size: 8pt;
+  position: relative; }
+
+.labelThis:hover div span:first-child {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+  display: block;
+  background: #000000;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 3000;
+  margin-left: 70px;
+  position: relative;
+  text-decoration: none;
+  color: #ffffff; }
+
+#toast {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 10000;
+  justify-content: center;
+  align-items: flex-end;
+  bottom: 20%; }
+
+#toastInnerContainer {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  border-radius: 22px;
+  padding: 8px 15px 8px 15px;
+  background: #000;
+  min-height: 34px;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  min-width: 250px;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  user-select: none; }
+
+.shadow1DP {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px -2px rgba(0, 0, 0, 0.15), 0 1px 4px 0 rgba(0, 0, 0, 0.1); }
+
+.shadow2DP {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+
+.customContainer {
+  width: 100%;
+  align-self: center;
+  max-width: 1300px;
+  height: 100%; }
+
+.customContainerS {
+  width: 100%;
+  align-self: center;
+  max-width: 1300px; }
+
+/**
+SAFARI DOES NOT PLAY WELL WITH height : 100%
+ */
+.customContainerPadding {
+  width: 100%;
+  align-self: center;
+  max-width: 1300px;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/**
+CUSTOMIZING BOOTSTRAP DIALOGS
+ */
+body .modal {
+  background: rgba(0, 0, 0, 0.4); }
+
+body .modal-dialog .modal-content {
+  border: none !important;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15), 0 2px 9px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-family: "Open Sans", "Open Sans", sans-serif !important;
+  font-size: 10pt !important;
+  padding: 10px; }
+  body .modal-dialog .modal-content .modal-header {
+    font-size: 15pt;
+    font-family: "Montserrat", "Open Sans", sans-serif !important;
+    border: none !important; }
+    body .modal-dialog .modal-content .modal-header h4, body .modal-dialog .modal-content .modal-header .modal-title {
+      color: #f9163d;
+      font-weight: 400; }
+    body .modal-dialog .modal-content .modal-header .close {
+      order: 2;
+      cursor: pointer;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background: #fafafa;
+      border: 1px solid #eeeeee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+      opacity: 1; }
+      body .modal-dialog .modal-content .modal-header .close span {
+        font-weight: 300 !important;
+        color: #aaaaaa;
+        text-shadow: none; }
+    body .modal-dialog .modal-content .modal-header .close:hover {
+      background: #eeeeee; }
+      body .modal-dialog .modal-content .modal-header .close:hover span {
+        color: #888888; }
+  body .modal-dialog .modal-content .modal-header.modal-headerDelete h4 {
+    color: #F44336 !important; }
+  body .modal-dialog .modal-content .modal-header.modal-headerComplementary h4 {
+    color: #000000; }
+  body .modal-dialog .modal-content .modal-footer {
+    border: none !important; }
+    body .modal-dialog .modal-content .modal-footer .modalButton {
+      font-weight: 600;
+      font-size: 12pt;
+      color: #f9163d;
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 4px; }
+    body .modal-dialog .modal-content .modal-footer .modalButton:hover {
+      background: #f5f5f5;
+      color: #fc7990; }
+    body .modal-dialog .modal-content .modal-footer .modalButtonCancel {
+      font-weight: 600;
+      font-size: 12pt;
+      color: #aaaaaa;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 4px; }
+    body .modal-dialog .modal-content .modal-footer .modalButtonCancel:hover {
+      color: #888888;
+      background: #f5f5f5 !important; }
+    body .modal-dialog .modal-content .modal-footer .modalButtonDelete {
+      font-weight: 600;
+      font-size: 12pt;
+      color: #F44336 !important;
+      cursor: pointer;
+      border-radius: 4px;
+      padding: 5px 10px; }
+    body .modal-dialog .modal-content .modal-footer .modalButtonDelete:hover {
+      color: #C62828;
+      background: #f5f5f5; }
+
+@media all and (min-width: 992px) {
+  .modal-dialog {
+    max-width: 800px;
+    overflow-y: auto;
+    margin: 40px auto; } }
+@media all and (max-width: 992px) {
+  body .modal-dialog .modal-content {
+    border: none !important;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15), 0 2px 9px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-family: "Open Sans", "Open Sans", sans-serif !important;
+    font-size: 10pt !important;
+    padding: 10px; }
+    body .modal-dialog .modal-content .modal-header {
+      font-size: 15pt;
+      font-family: "Montserrat", "Open Sans", sans-serif !important;
+      border: none !important; }
+      body .modal-dialog .modal-content .modal-header h4, body .modal-dialog .modal-content .modal-header .modal-title {
+        color: #f9163d !important;
+        font-weight: 400; }
+    body .modal-dialog .modal-content .modal-body {
+      padding: 0 !important; } }
+/**
+Animations
+ */
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeout {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+/* Opera < 12.1 */
+@-o-keyframes fadeout {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@keyframes fadeinAdd {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+/* Firefox < 16 */
+@-moz-keyframes fadeinAdd {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinAdd {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+/* Internet Explorer */
+@-ms-keyframes fadeinAdd {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+/* Opera < 12.1 */
+@-o-keyframes fadeinAdd {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+@keyframes fadeinDetailCover {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.85; } }
+@-moz-keyframes fadeinDetailCover {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.85; } }
+@-webkit-keyframes fadeinDetailCover {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.85; } }
+@-ms-keyframes fadeinDetailCover {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.85; } }
+@-o-keyframes fadeinDetailCover {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.85; } }
+@keyframes fadeOutDetailCover {
+  from {
+    opacity: 0.85; }
+  to {
+    opacity: 0; } }
+@-moz-keyframes fadeOutDetailCover {
+  from {
+    opacity: 0.85; }
+  to {
+    opacity: 0; } }
+@-webkit-keyframes fadeOutDetailCover {
+  from {
+    opacity: 0.85; }
+  to {
+    opacity: 0; } }
+@-ms-keyframes fadeOutDetailCover {
+  from {
+    opacity: 0.85; }
+  to {
+    opacity: 0; } }
+@-o-keyframes fadeOutDetailCover {
+  from {
+    opacity: 0.85; }
+  to {
+    opacity: 0; } }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+.transitionContainer {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  background: #ffffff;
+  display: none; }
+
+/**
+* Tooltip
+* Tooltip Styles
+*/
+@media all and (min-width: 992px) {
+  /* Base styles for the element that has a tooltip */
+  [data-tooltip],
+  .tooltip {
+    position: relative;
+    cursor: pointer;
+    z-index: 1000; }
+
+  /* Base styles for the entire tooltip */
+  [data-tooltip]:before,
+  [data-tooltip]:after,
+  .tooltip:before,
+  .tooltip:after {
+    position: absolute;
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -moz-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    pointer-events: none; }
+
+  /* Show the entire tooltip on hover and focus */
+  [data-tooltip]:hover:before,
+  [data-tooltip]:hover:after,
+  [data-tooltip]:focus:before,
+  [data-tooltip]:focus:after,
+  .tooltip:hover:before,
+  .tooltip:hover:after,
+  .tooltip:focus:before,
+  .tooltip:focus:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1; }
+
+  /* Base styles for the tooltip's directional arrow */
+  .tooltip:before,
+  [data-tooltip]:before {
+    z-index: 1001;
+    border: 6px solid transparent;
+    background: transparent;
+    content: ""; }
+
+  /* Base styles for the tooltip's content area */
+  .tooltip:after,
+  [data-tooltip]:after {
+    z-index: 10000;
+    padding: 10px 10px;
+    width: 180px;
+    background-color: #000;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    content: attr(data-tooltip);
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 3px; }
+
+  /* Directions */
+  /* Top (default) */
+  [data-tooltip]:before,
+  [data-tooltip]:after,
+  .tooltip:before,
+  .tooltip:after,
+  .tooltip-top:before,
+  .tooltip-top:after {
+    bottom: 100%;
+    left: 50%; }
+
+  [data-tooltip]:before,
+  .tooltip:before,
+  .tooltip-top:before {
+    margin-left: -6px;
+    margin-bottom: -12px;
+    border-top-color: #000;
+    border-top-color: black; }
+
+  /* Horizontally align top/bottom tooltips */
+  [data-tooltip]:after,
+  .tooltip:after,
+  .tooltip-top:after {
+    margin-left: -80px; }
+
+  [data-tooltip]:hover:before,
+  [data-tooltip]:hover:after,
+  [data-tooltip]:focus:before,
+  [data-tooltip]:focus:after,
+  .tooltip:hover:before,
+  .tooltip:hover:after,
+  .tooltip:focus:before,
+  .tooltip:focus:after,
+  .tooltip-top:hover:before,
+  .tooltip-top:hover:after,
+  .tooltip-top:focus:before,
+  .tooltip-top:focus:after {
+    -webkit-transform: translateY(-12px);
+    -moz-transform: translateY(-12px);
+    transform: translateY(-12px); }
+
+  /* Left */
+  .tooltip-left:before,
+  .tooltip-left:after {
+    right: 100%;
+    bottom: 50%;
+    left: auto; }
+
+  .tooltip-left:before {
+    margin-left: 0;
+    margin-right: -12px;
+    margin-bottom: 0;
+    border-top-color: transparent;
+    border-left-color: #000;
+    border-left-color: black; }
+
+  .tooltip-left:hover:before,
+  .tooltip-left:hover:after,
+  .tooltip-left:focus:before,
+  .tooltip-left:focus:after {
+    -webkit-transform: translateX(-12px);
+    -moz-transform: translateX(-12px);
+    transform: translateX(-12px); }
+
+  /* Bottom */
+  .tooltip-bottom:before,
+  .tooltip-bottom:after {
+    top: 100%;
+    bottom: auto;
+    left: 50%; }
+
+  .tooltip-bottom:before {
+    margin-top: -12px;
+    margin-bottom: 0;
+    border-top-color: transparent;
+    border-bottom-color: #000;
+    border-bottom-color: black; }
+
+  .tooltip-bottom:hover:before,
+  .tooltip-bottom:hover:after,
+  .tooltip-bottom:focus:before,
+  .tooltip-bottom:focus:after {
+    -webkit-transform: translateY(12px);
+    -moz-transform: translateY(12px);
+    transform: translateY(12px); }
+
+  /* Right */
+  .tooltip-right:before,
+  .tooltip-right:after {
+    bottom: 50%;
+    left: 100%; }
+
+  .tooltip-right:before {
+    margin-bottom: 0;
+    margin-left: -12px;
+    border-top-color: transparent;
+    border-right-color: #000;
+    text-align: left;
+    border-right-color: black; }
+
+  .tooltip-right:hover:before,
+  .tooltip-right:hover:after,
+  .tooltip-right:focus:before,
+  .tooltip-right:focus:after {
+    -webkit-transform: translateX(12px);
+    -moz-transform: translateX(12px);
+    transform: translateX(12px); }
+
+  /* Move directional arrows down a bit for left/right tooltips */
+  .tooltip-left:before,
+  .tooltip-right:before {
+    top: 3px; }
+
+  /* Vertically center tooltip content for left/right tooltips */
+  .tooltip-left:after,
+  .tooltip-right:after {
+    margin-left: 0;
+    margin-bottom: -16px; } }
+.loader {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px; }
+  .loader i {
+    width: 19px;
+    font-size: 14pt;
+    color: #ffd833;
+    margin-left: 0;
+    margin-right: 0 !important;
+    line-height: 0 !important;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    padding: 0 !important; }
+
+.loaderBlue {
+  display: none;
+  height: 26px;
+  width: 26px;
+  margin-left: 10px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjZweCIgIGhlaWdodD0iMjZweCIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiBjbGFzcz0ibGRzLXJvbGxpbmciIHN0eWxlPSJiYWNrZ3JvdW5kOiBub25lOyI+PGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgbmctYXR0ci1zdHJva2U9Int7Y29uZmlnLmNvbG9yfX0iIG5nLWF0dHItc3Ryb2tlLXdpZHRoPSJ7e2NvbmZpZy53aWR0aH19IiBuZy1hdHRyLXI9Int7Y29uZmlnLnJhZGl1c319IiBuZy1hdHRyLXN0cm9rZS1kYXNoYXJyYXk9Int7Y29uZmlnLmRhc2hhcnJheX19IiBzdHJva2U9IiMwMDZiZDUiIHN0cm9rZS13aWR0aD0iMTUiIHI9IjM1IiBzdHJva2UtZGFzaGFycmF5PSIxNjQuOTMzNjE0MzEzNDY0MTUgNTYuOTc3ODcxNDM3ODIxMzgiIHRyYW5zZm9ybT0icm90YXRlKDI0IDUwIDUwKSI+PGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJsaW5lYXIiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMS41cyIgYmVnaW49IjBzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlVHJhbnNmb3JtPjwvY2lyY2xlPjwvc3ZnPg==); }
+
+.loaderWhite {
+  display: none;
+  height: 26px;
+  width: 26px;
+  margin-left: 10px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjZweCIgIGhlaWdodD0iMjZweCIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiBjbGFzcz0ibGRzLXJvbGxpbmciIHN0eWxlPSJiYWNrZ3JvdW5kOiBub25lOyI+PGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgbmctYXR0ci1zdHJva2U9Int7Y29uZmlnLmNvbG9yfX0iIG5nLWF0dHItc3Ryb2tlLXdpZHRoPSJ7e2NvbmZpZy53aWR0aH19IiBuZy1hdHRyLXI9Int7Y29uZmlnLnJhZGl1c319IiBuZy1hdHRyLXN0cm9rZS1kYXNoYXJyYXk9Int7Y29uZmlnLmRhc2hhcnJheX19IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMTUiIHI9IjM1IiBzdHJva2UtZGFzaGFycmF5PSIxNjQuOTMzNjE0MzEzNDY0MTUgNTYuOTc3ODcxNDM3ODIxMzgiIHRyYW5zZm9ybT0icm90YXRlKDI0IDUwIDUwKSI+PGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJsaW5lYXIiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMS41cyIgYmVnaW49IjBzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlVHJhbnNmb3JtPjwvY2lyY2xlPjwvc3ZnPg==); }
+
+.loaderGray {
+  display: none;
+  height: 26px;
+  width: 26px;
+  margin-left: 10px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjZweCIgIGhlaWdodD0iMjZweCIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiBjbGFzcz0ibGRzLXJvbGxpbmciIHN0eWxlPSJiYWNrZ3JvdW5kOiBub25lOyI+PGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgbmctYXR0ci1zdHJva2U9Int7Y29uZmlnLmNvbG9yfX0iIG5nLWF0dHItc3Ryb2tlLXdpZHRoPSJ7e2NvbmZpZy53aWR0aH19IiBuZy1hdHRyLXI9Int7Y29uZmlnLnJhZGl1c319IiBuZy1hdHRyLXN0cm9rZS1kYXNoYXJyYXk9Int7Y29uZmlnLmRhc2hhcnJheX19IiBzdHJva2U9IiNhYWFhYWEiIHN0cm9rZS13aWR0aD0iMTUiIHI9IjM1IiBzdHJva2UtZGFzaGFycmF5PSIxNjQuOTMzNjE0MzEzNDY0MTUgNTYuOTc3ODcxNDM3ODIxMzgiIHRyYW5zZm9ybT0icm90YXRlKDI0IDUwIDUwKSI+PGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJsaW5lYXIiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMS41cyIgYmVnaW49IjBzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlVHJhbnNmb3JtPjwvY2lyY2xlPjwvc3ZnPg==); }
+
+#logLoader {
+  width: 140px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  background: #000000;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  z-index: 10000000;
+  justify-content: center;
+  align-items: center; }
+
+#logLoader span {
+  color: #ffffff;
+  font-size: 14pt;
+  font-family: "Lato", "Source Sans Pro", sans-serif; }
+
+#logLoaderBackground {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 100000;
+  background: #ffffff; }
+
+/**
+ALERT
+ */
+#customAlertContainer {
+  position: fixed;
+  z-index: 10000000;
+  right: 3%;
+  top: 3%;
+  width: 460px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow-y: scroll; }
+  #customAlertContainer .customAlert {
+    box-shadow: 0 0 10px 0 rgba(244, 67, 54, 0.5);
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12pt;
+    font-family: "Open Sans", "Open Sans", sans-serif, "Open Sans", "Arial", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative; }
+    #customAlertContainer .customAlert .warnContainer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      padding-left: 10px; }
+      #customAlertContainer .customAlert .warnContainer i {
+        line-height: 0;
+        color: #ffffff;
+        font-size: 17pt; }
+    #customAlertContainer .customAlert span {
+      flex-shrink: 1;
+      font-size: 10pt;
+      color: #ffffff;
+      text-align: center;
+      font-family: "Open Sans", "Open Sans", sans-serif; }
+  #customAlertContainer .customAlert.success {
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.07), 0 2px 9px 0 rgba(0, 0, 0, 0.08);
+    background: #ffd833 !important; }
+    #customAlertContainer .customAlert.success span {
+      color: #222; }
+  #customAlertContainer .customAlert.failure {
+    box-shadow: 0 0 10px 0 rgba(244, 67, 54, 0.5);
+    background: #F44336;
+    padding: 15px 15px 15px 45px !important; }
+
+@media all and (max-width: 992px) {
+  #customAlertContainer {
+    position: fixed;
+    z-index: 1000000;
+    right: auto;
+    margin: 0 auto;
+    bottom: 0;
+    top: auto;
+    width: 100%;
+    padding: 15px;
+    max-width: 100%; }
+    #customAlertContainer .customAlert {
+      max-width: 400px;
+      margin: 0 auto 15px auto;
+      width: 100%; } }
+a {
+  text-decoration: none !important; }
+
+.vanLoadingToast {
+  position: fixed;
+  z-index: 999999;
+  bottom: 40px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .vanLoadingToast span {
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-weight: 500;
+    max-width: 220px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 11pt;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    border-radius: 6px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15), 0 2px 9px 0 rgba(0, 0, 0, 0.1); }
+
+body.primary {
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row; }
+  body.primary .menu {
+    width: 226px;
+    z-index: 110;
+    background: #ffffff;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.07), 0 2px 9px 0 rgba(0, 0, 0, 0.08);
+    position: relative; }
+    body.primary .menu .menuContainerPositioning {
+      width: 226px;
+      position: absolute; }
+      body.primary .menu .menuContainerPositioning .menuContainer {
+        position: fixed;
+        width: 226px;
+        display: flex;
+        flex-direction: column; }
+        body.primary .menu .menuContainerPositioning .menuContainer .menuLogo {
+          width: 100%;
+          height: 76px;
+          padding: 15px 25px 5px 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          user-select: none; }
+          body.primary .menu .menuContainerPositioning .menuContainer .menuLogo img {
+            width: 100%;
+            max-width: 200px;
+            height: 100%;
+            object-fit: contain;
+            filter: grayscale(100%); }
+        body.primary .menu .menuContainerPositioning .menuContainer .menuLogo::before {
+          user-select: none; }
+        body.primary .menu .menuContainerPositioning .menuContainer .menuList {
+          height: 100%;
+          width: 100%;
+          padding: 20px 10px 10px 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          overflow-y: auto; }
+          body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem {
+            width: 100%;
+            height: 54px;
+            background: #ffffff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 9px;
+            cursor: pointer;
+            position: relative;
+            border: 1px solid #eeeeee;
+            border-radius: 6px;
+            text-decoration: none !important; }
+            body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemIcon {
+              width: 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemIcon i {
+                font-size: 16pt;
+                color: #ffd833;
+                line-height: 0; }
+            body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemTitle {
+              padding: 0;
+              line-height: 1.3;
+              margin-top: -3px; }
+              body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemTitle span {
+                padding: 0;
+                font-size: 10pt;
+                font-family: "Montserrat", "Open Sans", sans-serif;
+                font-weight: 400;
+                color: #aaaaaa; }
+            body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemBadge {
+              position: absolute;
+              right: -8px;
+              top: -5px;
+              height: 24px;
+              width: 24px;
+              background: #F44336;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemBadge span {
+                color: #ffffff;
+                font-size: 8pt;
+                font-weight: 500;
+                line-height: 0; }
+          body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem:hover:not(.selected) {
+            background: #f9f9f9; }
+          body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem.selected {
+            background: #ffd833;
+            box-shadow: 0 0 20px 0 rgba(255, 216, 51, 0.35);
+            border: none; }
+            body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem.selected .menuItemIcon i {
+              color: #ffffff; }
+            body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem.selected .menuItemTitle span {
+              color: #ffffff; }
+  body.primary .structure {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    z-index: 99;
+    height: 100%; }
+    body.primary .structure header {
+      height: 76px;
+      z-index: 99;
+      background: #2e3035;
+      box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05), 0 1px 5px 0 rgba(0, 0, 0, 0.05); }
+      body.primary .structure header .toolbarContainer {
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 5px; }
+        body.primary .structure header .toolbarContainer .toolbarLogo {
+          width: 120px;
+          height: 100%;
+          padding: 1px 0; }
+          body.primary .structure header .toolbarContainer .toolbarLogo img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain; }
+        body.primary .structure header .toolbarContainer .toolbarTitle {
+          font-size: 12pt;
+          font-weight: 400;
+          color: #222222; }
+        body.primary .structure header .toolbarContainer .toolbarMenu {
+          flex: 1;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-end;
+          height: 100%; }
+          body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile {
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            align-items: center; }
+            body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile .toolbarProfileImage {
+              height: 40px;
+              width: 40px;
+              border-radius: 50%;
+              background: #ffd833;
+              margin-right: 15px;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile .toolbarProfileImage i {
+                user-select: none;
+                color: #ffffff;
+                line-height: 0;
+                font-size: 17pt; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile .toolbarProfileImage img {
+                height: 100%;
+                width: 100%;
+                border-radius: 50%; }
+            body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile .toolbarProfileName {
+              min-width: 60px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: flex-start; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile .toolbarProfileName span {
+                color: #888888;
+                font-size: 9pt;
+                font-weight: 300; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile .toolbarProfileName p {
+                font-size: 10pt;
+                font-weight: 600;
+                color: #222222; }
+          body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons {
+            padding-left: 20px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center; }
+            body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable {
+              background: transparent;
+              border: 1px solid #f9163d; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable .loader i {
+                color: #f9163d !important; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable i {
+                color: #f9163d !important; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable span {
+                color: #f9163d !important; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus {
+                background: #f9163d; }
+                body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover .loader i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active .loader i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus .loader i {
+                  color: #fff !important; }
+                body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:hover img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:active img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable:focus img {
+                  filter: brightness(0) invert(1); }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonTable img {
+                height: 20px;
+                width: 20px;
+                object-fit: contain; }
+            body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions {
+              background: transparent;
+              border: 1px solid #ffd833;
+              margin-right: 10px; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions .loader i {
+                color: #ffd833 !important; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions i {
+                color: #ffd833 !important; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions span {
+                color: #ffd833 !important; }
+              body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus {
+                background: #ffd833; }
+                body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover .loader i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active .loader i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus i, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus span, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus .loader i {
+                  color: #2e3035 !important; }
+                body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:hover img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:active img, body.primary .structure header .toolbarContainer .toolbarMenu .toolbarButtons .buttonActions:focus img {
+                  filter: brightness(0) invert(1); }
+    body.primary .structure .structureContent {
+      flex: 1;
+      width: 100%;
+      padding: 30px; }
+      body.primary .structure .structureContent .sectionTitle {
+        font-size: 16pt;
+        font-weight: 300;
+        color: #222222;
+        margin-bottom: 20px; }
+  body.primary .overlay, body.primary .overlay-action {
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    opacity: 0.8;
+    z-index: 105;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    display: none; }
+  body.primary .cover, body.primary .cover-action {
+    height: 100vh;
+    width: 50vw;
+    position: fixed;
+    z-index: 115;
+    top: 0;
+    bottom: 0;
+    transform: translateX(100%);
+    transition: transform 0.4s;
+    will-change: transform;
+    background: #2e3035;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15), 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+    overflow: hidden; }
+    body.primary .cover .cover-container, body.primary .cover-action .cover-container {
+      padding: 20px 30px 0 30px;
+      height: 100%;
+      width: 100%;
+      overflow-y: scroll;
+      overflow-x: hidden; }
+      body.primary .cover .cover-container .cover-header, body.primary .cover-action .cover-container .cover-header {
+        position: relative;
+        display: flex;
+        height: 60px;
+        align-items: flex-start; }
+        body.primary .cover .cover-container .cover-header .cover-header-close, body.primary .cover-action .cover-container .cover-header .cover-header-close {
+          position: fixed;
+          height: 60px;
+          width: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          margin-left: -100px;
+          margin-top: -15px;
+          cursor: pointer;
+          background: #2e3035;
+          box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.085); }
+          body.primary .cover .cover-container .cover-header .cover-header-close i, body.primary .cover-action .cover-container .cover-header .cover-header-close i {
+            color: #ffffff;
+            font-size: 14pt; }
+          body.primary .cover .cover-container .cover-header .cover-header-close:hover, body.primary .cover .cover-container .cover-header .cover-header-close:active, body.primary .cover .cover-container .cover-header .cover-header-close:focus, body.primary .cover-action .cover-container .cover-header .cover-header-close:hover, body.primary .cover-action .cover-container .cover-header .cover-header-close:active, body.primary .cover-action .cover-container .cover-header .cover-header-close:focus {
+            filter: brightness(110%); }
+        body.primary .cover .cover-container .cover-header .cover-header-title, body.primary .cover-action .cover-container .cover-header .cover-header-title {
+          display: flex;
+          width: 100%;
+          justify-content: flex-start;
+          align-items: center; }
+          body.primary .cover .cover-container .cover-header .cover-header-title i, body.primary .cover-action .cover-container .cover-header .cover-header-title i {
+            color: #f9163d;
+            padding-right: 5px;
+            font-size: 18pt; }
+          body.primary .cover .cover-container .cover-header .cover-header-title p, body.primary .cover-action .cover-container .cover-header .cover-header-title p {
+            font-size: 16pt;
+            font-weight: 600;
+            color: #f9163d;
+            text-transform: capitalize;
+            margin: 0; }
+      body.primary .cover .cover-container .cover-content .cover-item, body.primary .cover-action .cover-container .cover-content .cover-item {
+        padding-bottom: 15px; }
+        body.primary .cover .cover-container .cover-content .cover-item .cover-item-name, body.primary .cover-action .cover-container .cover-content .cover-item .cover-item-name {
+          display: flex;
+          align-items: center;
+          padding-bottom: 5px; }
+          body.primary .cover .cover-container .cover-content .cover-item .cover-item-name p, body.primary .cover-action .cover-container .cover-content .cover-item .cover-item-name p {
+            color: #fff;
+            font-size: 12pt;
+            font-weight: 200;
+            font-family: "Open Sans", "Open Sans", sans-serif;
+            display: flex;
+            align-items: center; }
+            body.primary .cover .cover-container .cover-content .cover-item .cover-item-name p span, body.primary .cover-action .cover-container .cover-content .cover-item .cover-item-name p span {
+              padding-left: 5px;
+              font-weight: 600; }
+        body.primary .cover .cover-container .cover-content .cover-item .cover-item-table, body.primary .cover-action .cover-container .cover-content .cover-item .cover-item-table {
+          /* Make cells a bit taller */ }
+          body.primary .cover .cover-container .cover-content .cover-item .cover-item-table table, body.primary .cover-action .cover-container .cover-content .cover-item .cover-item-table table {
+            color: #fff;
+            /* Lighten up font color */
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+            font-weight: "Open Sans", "Open Sans", sans-serif;
+            table-layout: auto; }
+          body.primary .cover .cover-container .cover-content .cover-item .cover-item-table td, body.primary .cover .cover-container .cover-content .cover-item .cover-item-table th, body.primary .cover-action .cover-container .cover-content .cover-item .cover-item-table td, body.primary .cover-action .cover-container .cover-content .cover-item .cover-item-table th {
+            border: 1px solid #fff;
+            height: 42px;
+            background: transparent; }
+          body.primary .cover .cover-container .cover-content .cover-item .cover-item-table th, body.primary .cover-action .cover-container .cover-content .cover-item .cover-item-table th {
+            background: transparent;
+            font-weight: 600;
+            padding: 0 0 0 12px;
+            text-align: left;
+            font-size: 12pt; }
+          body.primary .cover .cover-container .cover-content .cover-item .cover-item-table td, body.primary .cover-action .cover-container .cover-content .cover-item .cover-item-table td {
+            background: transparent;
+            text-align: left;
+            padding: 0 0 0 12px;
+            font-weight: 200;
+            font-size: 11pt; }
+  body.primary .cover-action .cover-container .cover-header .cover-header-title i, body.primary .cover-action .cover-container .cover-header .cover-header-title p {
+    color: #ffd833 !important; }
+  body.primary .cover-action .cover-container .cover-content .cover-content-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 5px; }
+      body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 5px; }
+        body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-header p {
+          color: #ffd833;
+          font-size: 14pt;
+          font-weight: 400;
+          font-family: "Montserrat", "Open Sans", sans-serif; }
+          body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-header p span {
+            font-weight: 200;
+            color: #fff; }
+        body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-header .toggle {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          margin-left: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #222;
+          cursor: pointer; }
+          body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-header .toggle i {
+            color: #fff;
+            font-size: 14pt; }
+      body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-body {
+        height: 0;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 6px;
+        overflow: hidden; }
+        body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-body .cover-content-function-body-container {
+          padding: 10px; }
+          body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function .cover-content-function-body .cover-content-function-body-container span {
+            color: #fff;
+            font-size: 12pt;
+            font-weight: 300;
+            white-space: pre-wrap; }
+      body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function.show .cover-content-function-body {
+        height: auto; }
+      body.primary .cover-action .cover-container .cover-content .cover-content-section .cover-content-function.show .cover-content-function-header .toggle {
+        transform: rotate(180deg); }
+
+body.primary.menu-visible .cover {
+  transform: translateX(0);
+  transition: transform 0.4s;
+  will-change: transform; }
+
+body.primary.menu-action-visible .cover-action {
+  transform: translateX(0);
+  transition: transform 0.4s;
+  will-change: transform; }
+
+@media all and (max-width: 992px) {
+  body.primary .menu {
+    height: 100vh;
+    width: 80%;
+    z-index: 110;
+    background: #ffffff;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.07), 0 2px 9px 0 rgba(0, 0, 0, 0.08);
+    position: fixed;
+    left: -80%; }
+    body.primary .menu .menuContainerPositioning {
+      width: 100%;
+      position: relative; }
+      body.primary .menu .menuContainerPositioning .menuContainer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow-y: scroll; }
+        body.primary .menu .menuContainerPositioning .menuContainer .menuLogo {
+          width: 100%;
+          height: 76px;
+          display: flex;
+          margin-bottom: 0;
+          padding: 0;
+          justify-content: center;
+          flex-direction: row;
+          align-items: center; }
+          body.primary .menu .menuContainerPositioning .menuContainer .menuLogo img {
+            flex: 1;
+            padding: 10px;
+            max-width: calc(100% - 120px);
+            height: 100%;
+            object-fit: contain;
+            filter: grayscale(100%); }
+        body.primary .menu .menuContainerPositioning .menuContainer .menuLogo::before {
+          position: absolute;
+          left: 0;
+          content: '\2715';
+          height: 42px;
+          width: 42px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          color: #000;
+          background: #f5f5f5;
+          border: 1px solid #eeeeee;
+          margin-right: 0;
+          margin-left: 10px; }
+        body.primary .menu .menuContainerPositioning .menuContainer .menuLogo:active::before, body.primary .menu .menuContainerPositioning .menuContainer .menuLogo:focus::before, body.primary .menu .menuContainerPositioning .menuContainer .menuLogo:hover::before {
+          background: #ffffff; }
+        body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemTitle {
+          padding: 0; }
+          body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemTitle span {
+            padding: 0;
+            font-size: 10pt;
+            font-family: "Montserrat", "Open Sans", sans-serif;
+            font-weight: 400;
+            color: #aaaaaa; }
+        body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemBadge {
+          position: absolute;
+          right: -8px;
+          top: -5px;
+          height: 24px;
+          width: 24px;
+          background: #F44336;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          user-select: none; }
+          body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem .menuItemBadge span {
+            color: #ffffff;
+            font-size: 8pt;
+            font-weight: 500;
+            line-height: 0; }
+        body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem.selected {
+          background: #ffd833;
+          box-shadow: 0 0 20px 0 rgba(255, 216, 51, 0.35);
+          border: none; }
+          body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem.selected .menuItemIcon i {
+            color: #ffffff; }
+          body.primary .menu .menuContainerPositioning .menuContainer .menuList .menuItem.selected .menuItemTitle span {
+            color: #ffffff; }
+  body.primary .menu + main {
+    overflow-y: hidden; }
+  body.primary .structure header .toolbarContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px; }
+    body.primary .structure header .toolbarContainer .toolbarTitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+    body.primary .structure header .toolbarContainer .toolbarTitle::before {
+      content: '\2630';
+      height: 42px;
+      width: 42px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      color: #000;
+      background: #f5f5f5;
+      border: 1px solid #eeeeee;
+      margin-right: 15px;
+      margin-left: 0; }
+    body.primary .structure header .toolbarContainer .toolbarTitle:active::before, body.primary .structure header .toolbarContainer .toolbarTitle:focus::before, body.primary .structure header .toolbarContainer .toolbarTitle:hover::before {
+      background: #ffffff; }
+    body.primary .structure header .toolbarContainer .toolbarMenu {
+      flex: 1; }
+      body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+        body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile .toolbarProfileImage {
+          margin-right: 0 !important; }
+        body.primary .structure header .toolbarContainer .toolbarMenu .toolbarProfile .toolbarProfileName {
+          display: none; }
+  body.primary .structure .structureContent {
+    padding: 10px; }
+    body.primary .structure .structureContent .sectionTitle {
+      font-size: 14pt;
+      font-weight: 300;
+      color: #222222;
+      margin-bottom: 20px; }
+  body.primary .cover, body.primary .cover-action {
+    width: 90vw; }
+
+  body.primary.menu-visible {
+    overflow-y: hidden; }
+    body.primary.menu-visible .menu {
+      left: 0; } }
+.binder-section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 15px;
+  width: 100%; }
+  .binder-section-title p {
+    position: relative;
+    font-size: 16pt;
+    color: #2e3035;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin: 0; }
+    .binder-section-title p::after {
+      position: absolute;
+      width: 100%;
+      bottom: -2px;
+      right: 0;
+      left: 0;
+      content: '';
+      background: #f9163d;
+      height: 1px;
+      border-radius: 1px; }
+  .binder-section-title #buttonRestore {
+    margin-left: auto;
+    background: transparent;
+    border: 1px solid #ffd833 !important; }
+    .binder-section-title #buttonRestore .loader i {
+      color: #ffd833 !important; }
+    .binder-section-title #buttonRestore i {
+      color: #ffd833 !important; }
+    .binder-section-title #buttonRestore span {
+      color: #ffd833 !important; }
+    .binder-section-title #buttonRestore:hover, .binder-section-title #buttonRestore:active, .binder-section-title #buttonRestore:focus {
+      background: #ffd833; }
+      .binder-section-title #buttonRestore:hover i, .binder-section-title #buttonRestore:hover span, .binder-section-title #buttonRestore:hover .loader i, .binder-section-title #buttonRestore:active i, .binder-section-title #buttonRestore:active span, .binder-section-title #buttonRestore:active .loader i, .binder-section-title #buttonRestore:focus i, .binder-section-title #buttonRestore:focus span, .binder-section-title #buttonRestore:focus .loader i {
+        color: #2e3035 !important; }
+    .binder-section-title #buttonRestore i {
+      margin: 0;
+      padding: 0; }
+  .binder-section-title #buttonSave {
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid #43e97b !important; }
+    .binder-section-title #buttonSave .loader i {
+      color: #43e97b !important; }
+    .binder-section-title #buttonSave i {
+      color: #43e97b !important; }
+    .binder-section-title #buttonSave span {
+      color: #43e97b !important; }
+    .binder-section-title #buttonSave:hover, .binder-section-title #buttonSave:active, .binder-section-title #buttonSave:focus {
+      background: #43e97b; }
+      .binder-section-title #buttonSave:hover i, .binder-section-title #buttonSave:hover span, .binder-section-title #buttonSave:hover .loader i, .binder-section-title #buttonSave:active i, .binder-section-title #buttonSave:active span, .binder-section-title #buttonSave:active .loader i, .binder-section-title #buttonSave:focus i, .binder-section-title #buttonSave:focus span, .binder-section-title #buttonSave:focus .loader i {
+        color: #2e3035 !important; }
+  .binder-section-title #buttonBind {
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid #fff !important; }
+    .binder-section-title #buttonBind .loader i {
+      color: #fff !important; }
+    .binder-section-title #buttonBind i {
+      color: #fff !important; }
+    .binder-section-title #buttonBind span {
+      color: #fff !important; }
+    .binder-section-title #buttonBind:hover, .binder-section-title #buttonBind:active, .binder-section-title #buttonBind:focus {
+      background: #fff; }
+      .binder-section-title #buttonBind:hover i, .binder-section-title #buttonBind:hover span, .binder-section-title #buttonBind:hover .loader i, .binder-section-title #buttonBind:active i, .binder-section-title #buttonBind:active span, .binder-section-title #buttonBind:active .loader i, .binder-section-title #buttonBind:focus i, .binder-section-title #buttonBind:focus span, .binder-section-title #buttonBind:focus .loader i {
+        color: #2e3035 !important; }
+  .binder-section-title.light p {
+    color: #fff; }
+
+body.primary {
+  height: 100vh !important;
+  overflow-y: hidden; }
+  body.primary .structure {
+    height: 100%;
+    padding: 0; }
+    body.primary .structure .structureContent {
+      max-width: 1300px;
+      margin: 0 auto;
+      height: calc(100% - 76px);
+      padding: 0 !important; }
+      body.primary .structure .structureContent #screen {
+        height: 100%;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #fff;
+        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.03), 0 1px 5px 0 rgba(0, 0, 0, 0.03); }
+        body.primary .structure .structureContent #screen .binder-preview {
+          grid-column: span 1;
+          padding: 10px 20px;
+          display: flex;
+          flex-direction: column;
+          height: 100%; }
+          body.primary .structure .structureContent #screen .binder-preview .binder-preview-container {
+            flex: 1;
+            padding: 8px 24px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+            width: 100%; }
+            body.primary .structure .structureContent #screen .binder-preview .binder-preview-container span {
+              white-space: pre-wrap;
+              font-weight: 200;
+              font-family: "Montserrat", "Open Sans", sans-serif;
+              background: #f5f5f5;
+              box-shadow: 16px 0 0 #f5f5f5, -16px 0 0 #f5f5f5, 16px 6px 0 #f5f5f5, -16px 6px #f5f5f5, -16px -6px #f5f5f5, 16px -6px #f5f5f5;
+              line-height: 38px;
+              font-size: 16px;
+              -moz-border-bottom-left-radius: 8px;
+              -moz-border-bottom-right-radius: 8px;
+              -moz-border-top-right-radius: 8px;
+              -moz-border-top-left-radius: 8px;
+              -webkit-border-radius: 8px;
+              border-radius: 8px;
+              -webkit-box-decoration-break: clone;
+              -o-box-decoration-break: clone;
+              box-decoration-break: clone; }
+              body.primary .structure .structureContent #screen .binder-preview .binder-preview-container span .parsed {
+                color: #f9163d;
+                font-weight: 400;
+                background: transparent;
+                box-shadow: none;
+                border-radius: 0; }
+              body.primary .structure .structureContent #screen .binder-preview .binder-preview-container span .const {
+                color: #2e3035;
+                font-weight: 400;
+                background: transparent;
+                box-shadow: none;
+                border-radius: 0; }
+        body.primary .structure .structureContent #screen .binder-editor {
+          grid-column: span 1;
+          padding: 10px 20px;
+          display: flex;
+          flex-direction: column;
+          background: #2e3035;
+          height: 100%;
+          overflow-y: scroll;
+          align-items: flex-start;
+          justify-content: flex-start; }
+          body.primary .structure .structureContent #screen .binder-editor .binder-editor-container {
+            flex: 1;
+            width: 100%;
+            border-radius: 8px;
+            padding: 8px;
+            background: #ffffff;
+            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05), 0 1px 5px 0 rgba(0, 0, 0, 0.05);
+            margin-bottom: 10px; }
+            body.primary .structure .structureContent #screen .binder-editor .binder-editor-container .input {
+              margin: 0 !important;
+              padding: 0 !important;
+              max-width: 100% !important;
+              height: 100%; }
+              body.primary .structure .structureContent #screen .binder-editor .binder-editor-container .input textarea {
+                max-width: 100% !important;
+                height: 100% !important;
+                padding: 5px !important;
+                font-weight: 400;
+                font-size: 16px;
+                text-decoration: underline;
+                text-decoration-color: #bbb; }
+                body.primary .structure .structureContent #screen .binder-editor .binder-editor-container .input textarea::-webkit-input-placeholder {
+                  font-weight: 300; }
+                body.primary .structure .structureContent #screen .binder-editor .binder-editor-container .input textarea::-moz-placeholder {
+                  font-weight: 300; }
+                body.primary .structure .structureContent #screen .binder-editor .binder-editor-container .input textarea:-ms-input-placeholder {
+                  font-weight: 300; }
+              body.primary .structure .structureContent #screen .binder-editor .binder-editor-container .input p {
+                display: none; }
+          body.primary .structure .structureContent #screen .binder-editor .binder-predefined-container {
+            height: 150px;
+            width: 100%;
+            border: 1px solid #f9163d;
+            border-radius: 8px;
+            padding: 8px; }
+
+/*# sourceMappingURL=home.css.map */
