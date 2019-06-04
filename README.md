@@ -1,4 +1,4 @@
-# fii-plp-binder
+# fii-binder
 
 # Project for FII-PLP (II.1.) Course 2018 
 ![Screenshot of the platform](binder_cover_center.png)
